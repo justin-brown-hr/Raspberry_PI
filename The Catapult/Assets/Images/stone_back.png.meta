@@ -1,0 +1,645 @@
+fileFormatVersion: 2
+guid: 5aac01c4186a46e5963dc9da2058abc4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: stone_back_0
+  - first:
+      213: 21300002
+    second: stone_back_1
+  - first:
+      213: 21300004
+    second: stone_back_2
+  - first:
+      213: 21300006
+    second: stone_back_3
+  - first:
+      213: 21300008
+    second: stone_back_4
+  - first:
+      213: 21300010
+    second: stone_back_5
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stone_back_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: -89}
+        - {x: 121, y: -47}
+        - {x: 123, y: -50}
+      - - {x: 123, y: -45}
+        - {x: 124, y: -43}
+        - {x: 126, y: -52}
+      - - {x: 124, y: -42}
+        - {x: 126, y: -52}
+        - {x: 124, y: -43}
+      - - {x: -128, y: -80}
+        - {x: -128, y: 104}
+        - {x: -74, y: -128}
+      - - {x: -70, y: 128}
+        - {x: -74, y: -128}
+        - {x: -128, y: 104}
+      - - {x: 54, y: -128}
+        - {x: -74, y: -128}
+        - {x: -70, y: 128}
+      - - {x: 94, y: 128}
+        - {x: 54, y: -128}
+        - {x: -70, y: 128}
+      - - {x: 115, y: -89}
+        - {x: 54, y: -128}
+        - {x: 94, y: 128}
+      - - {x: 128, y: 72}
+        - {x: 115, y: -89}
+        - {x: 94, y: 128}
+      - - {x: 121, y: -47}
+        - {x: 115, y: -89}
+        - {x: 128, y: 72}
+      - - {x: 123, y: -42}
+        - {x: 121, y: -47}
+        - {x: 128, y: 72}
+      - - {x: 124, y: -42}
+        - {x: 123, y: -42}
+        - {x: 128, y: 72}
+      - - {x: 126, y: -52}
+        - {x: 124, y: -42}
+        - {x: 128, y: 72}
+      - - {x: 128, y: -53}
+        - {x: 126, y: -52}
+        - {x: 128, y: 72}
+      - - {x: 124, y: -43}
+        - {x: 124, y: -43}
+        - {x: 124, y: -42}
+      - - {x: 124, y: -43}
+        - {x: 123, y: -42}
+        - {x: 124, y: -42}
+      - - {x: 121, y: -47}
+        - {x: 123, y: -42}
+        - {x: 124, y: -43}
+      physicsShape:
+      - - {x: 78, y: -104}
+        - {x: 100, y: -83}
+        - {x: 107, y: -74}
+        - {x: 115, y: -61}
+        - {x: 118, y: -55}
+        - {x: 125, y: -35}
+        - {x: 128, y: -22}
+        - {x: 128, y: 23}
+        - {x: 126, y: 36}
+        - {x: 119, y: 55}
+        - {x: 107, y: 74}
+        - {x: 100, y: 82}
+        - {x: 75, y: 107}
+        - {x: 50, y: 121}
+        - {x: 35, y: 125}
+        - {x: 21, y: 128}
+        - {x: -23, y: 128}
+        - {x: -36, y: 126}
+        - {x: -44, y: 122}
+        - {x: -66, y: 112}
+        - {x: -78, y: 104}
+        - {x: -100, y: 83}
+        - {x: -107, y: 74}
+        - {x: -115, y: 60}
+        - {x: -120, y: 49}
+        - {x: -125, y: 35}
+        - {x: -128, y: 22}
+        - {x: -128, y: -23}
+        - {x: -126, y: -36}
+        - {x: -116, y: -61}
+        - {x: -107, y: -72.99999}
+        - {x: -100, y: -82}
+        - {x: -84, y: -98.99999}
+        - {x: -66, y: -113}
+        - {x: -45, y: -123}
+        - {x: -22, y: -128}
+        - {x: 23, y: -128}
+        - {x: 36, y: -126}
+        - {x: 49, y: -120}
+        - {x: 69, y: -110}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_back_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -128, y: -82}
+        - {x: -128, y: 109}
+        - {x: -87, y: -128}
+      - - {x: -60, y: 128}
+        - {x: -87, y: -128}
+        - {x: -128, y: 109}
+      - - {x: 97, y: -128}
+        - {x: -87, y: -128}
+        - {x: -60, y: 128}
+      - - {x: 71, y: 128}
+        - {x: 97, y: -128}
+        - {x: -60, y: 128}
+      - - {x: 128, y: 84}
+        - {x: 97, y: -128}
+        - {x: 71, y: 128}
+      - - {x: 128, y: -112}
+        - {x: 97, y: -128}
+        - {x: 128, y: 84}
+      physicsShape:
+      - - {x: 69, y: -110}
+        - {x: 79, y: -103}
+        - {x: 97, y: -85.99999}
+        - {x: 107, y: -75}
+        - {x: 122, y: -44}
+        - {x: 126, y: -30}
+        - {x: 128, y: -21}
+        - {x: 128, y: 22}
+        - {x: 127, y: 27}
+        - {x: 120, y: 52}
+        - {x: 110, y: 69}
+        - {x: 98.99999, y: 83}
+        - {x: 84, y: 98.99999}
+        - {x: 62, y: 115}
+        - {x: 44, y: 122}
+        - {x: 30, y: 126}
+        - {x: 19, y: 128}
+        - {x: -21, y: 128}
+        - {x: -25, y: 127}
+        - {x: -44, y: 123}
+        - {x: -60, y: 115}
+        - {x: -76, y: 105}
+        - {x: -84, y: 98.99999}
+        - {x: -98.99999, y: 84}
+        - {x: -108, y: 72}
+        - {x: -122, y: 47}
+        - {x: -128, y: 23}
+        - {x: -128, y: -23}
+        - {x: -125, y: -35}
+        - {x: -121, y: -47}
+        - {x: -115, y: -60}
+        - {x: -108, y: -72}
+        - {x: -97, y: -87}
+        - {x: -79.99999, y: -102}
+        - {x: -72, y: -108}
+        - {x: -51, y: -119}
+        - {x: -43, y: -122}
+        - {x: -30, y: -126}
+        - {x: -19, y: -128}
+        - {x: 21, y: -128}
+        - {x: 30, y: -127}
+        - {x: 47, y: -121}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_back_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -128, y: -63}
+        - {x: -128, y: 117}
+        - {x: -107, y: -128}
+      - - {x: -105, y: 128}
+        - {x: -107, y: -128}
+        - {x: -128, y: 117}
+      - - {x: 94, y: -128}
+        - {x: -107, y: -128}
+        - {x: -105, y: 128}
+      - - {x: 99, y: 128}
+        - {x: 94, y: -128}
+        - {x: -105, y: 128}
+      - - {x: 128, y: -77}
+        - {x: 94, y: -128}
+        - {x: 99, y: 128}
+      - - {x: 128, y: 103}
+        - {x: 128, y: -77}
+        - {x: 99, y: 128}
+      physicsShape:
+      - - {x: 79, y: -103}
+        - {x: 97, y: -85.99999}
+        - {x: 107, y: -75}
+        - {x: 122, y: -44}
+        - {x: 126, y: -30}
+        - {x: 128, y: -21}
+        - {x: 128, y: 22}
+        - {x: 127, y: 27}
+        - {x: 120, y: 52}
+        - {x: 110, y: 69}
+        - {x: 102, y: 81}
+        - {x: 85, y: 100}
+        - {x: 62, y: 114}
+        - {x: 44, y: 122}
+        - {x: 30, y: 126}
+        - {x: 19, y: 128}
+        - {x: -21, y: 128}
+        - {x: -25, y: 127}
+        - {x: -44, y: 123}
+        - {x: -60, y: 115}
+        - {x: -76, y: 105}
+        - {x: -84, y: 98.99999}
+        - {x: -98.99999, y: 84}
+        - {x: -108, y: 72}
+        - {x: -122, y: 47}
+        - {x: -125, y: 34}
+        - {x: -128, y: 22}
+        - {x: -128, y: -23}
+        - {x: -125, y: -35}
+        - {x: -121, y: -47}
+        - {x: -115, y: -60}
+        - {x: -108, y: -72}
+        - {x: -97, y: -87}
+        - {x: -79.99999, y: -102}
+        - {x: -72, y: -108}
+        - {x: -51, y: -119}
+        - {x: -43, y: -122}
+        - {x: -30, y: -126}
+        - {x: -19, y: -128}
+        - {x: 20, y: -128}
+        - {x: 30, y: -126}
+        - {x: 47, y: -121}
+        - {x: 64, y: -113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_back_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -128, y: -88}
+        - {x: -128, y: 101}
+        - {x: -100, y: -128}
+      - - {x: -122, y: 128}
+        - {x: -100, y: -128}
+        - {x: -128, y: 101}
+      - - {x: 85, y: 128}
+        - {x: -100, y: -128}
+        - {x: -122, y: 128}
+      - - {x: 128, y: -128}
+        - {x: -100, y: -128}
+        - {x: 85, y: 128}
+      - - {x: 128, y: 108}
+        - {x: 128, y: -128}
+        - {x: 85, y: 128}
+      physicsShape:
+      - - {x: 78, y: -104}
+        - {x: 100, y: -83}
+        - {x: 107, y: -74}
+        - {x: 115, y: -61}
+        - {x: 118, y: -55}
+        - {x: 125, y: -35}
+        - {x: 128, y: -22}
+        - {x: 128, y: 23}
+        - {x: 126, y: 36}
+        - {x: 119, y: 55}
+        - {x: 107, y: 74}
+        - {x: 100, y: 82}
+        - {x: 75, y: 107}
+        - {x: 50, y: 121}
+        - {x: 35, y: 125}
+        - {x: 21, y: 128}
+        - {x: -23, y: 128}
+        - {x: -36, y: 126}
+        - {x: -44, y: 122}
+        - {x: -66, y: 112}
+        - {x: -78, y: 104}
+        - {x: -100, y: 83}
+        - {x: -107, y: 74}
+        - {x: -115, y: 60}
+        - {x: -120, y: 49}
+        - {x: -125, y: 35}
+        - {x: -128, y: 22}
+        - {x: -128, y: -23}
+        - {x: -126, y: -36}
+        - {x: -116, y: -61}
+        - {x: -107, y: -72.99999}
+        - {x: -100, y: -82}
+        - {x: -84, y: -98.99999}
+        - {x: -66, y: -113}
+        - {x: -45, y: -123}
+        - {x: -22, y: -128}
+        - {x: 23, y: -128}
+        - {x: 36, y: -126}
+        - {x: 49, y: -120}
+        - {x: 69, y: -110}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_back_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -128, y: -128}
+        - {x: -128, y: 87}
+        - {x: 100, y: -128}
+      - - {x: -85, y: 128}
+        - {x: 100, y: -128}
+        - {x: -128, y: 87}
+      - - {x: 85, y: 128}
+        - {x: 100, y: -128}
+        - {x: -85, y: 128}
+      - - {x: 128, y: 62}
+        - {x: 100, y: -128}
+        - {x: 85, y: 128}
+      - - {x: 128, y: -49}
+        - {x: 100, y: -128}
+        - {x: 128, y: 62}
+      physicsShape:
+      - - {x: 78, y: -104}
+        - {x: 100, y: -83}
+        - {x: 107, y: -74}
+        - {x: 115, y: -61}
+        - {x: 118, y: -55}
+        - {x: 125, y: -35}
+        - {x: 128, y: -22}
+        - {x: 128, y: 23}
+        - {x: 126, y: 36}
+        - {x: 119, y: 55}
+        - {x: 107, y: 74}
+        - {x: 100, y: 82}
+        - {x: 75, y: 107}
+        - {x: 50, y: 121}
+        - {x: 35, y: 125}
+        - {x: 21, y: 128}
+        - {x: -23, y: 128}
+        - {x: -36, y: 126}
+        - {x: -44, y: 122}
+        - {x: -66, y: 112}
+        - {x: -78, y: 104}
+        - {x: -100, y: 83}
+        - {x: -107, y: 74}
+        - {x: -115, y: 60}
+        - {x: -120, y: 49}
+        - {x: -125, y: 35}
+        - {x: -128, y: 22}
+        - {x: -128, y: -23}
+        - {x: -126, y: -36}
+        - {x: -116, y: -61}
+        - {x: -107, y: -72.99999}
+        - {x: -100, y: -82}
+        - {x: -84, y: -98.99999}
+        - {x: -66, y: -113}
+        - {x: -45, y: -123}
+        - {x: -22, y: -128}
+        - {x: 23, y: -128}
+        - {x: 36, y: -126}
+        - {x: 49, y: -120}
+        - {x: 69, y: -110}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_back_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -128, y: -78}
+        - {x: -128, y: 61}
+        - {x: -71, y: -128}
+      - - {x: -93, y: 128}
+        - {x: -71, y: -128}
+        - {x: -128, y: 61}
+      - - {x: 120, y: 128}
+        - {x: -71, y: -128}
+        - {x: -93, y: 128}
+      - - {x: 51, y: -128}
+        - {x: -71, y: -128}
+        - {x: 120, y: 128}
+      - - {x: 120, y: -93}
+        - {x: 51, y: -128}
+        - {x: 120, y: 128}
+      - - {x: 128, y: -88}
+        - {x: 120, y: -93}
+        - {x: 120, y: 128}
+      - - {x: 128, y: 127}
+        - {x: 128, y: -88}
+        - {x: 120, y: 128}
+      physicsShape:
+      - - {x: 69, y: -110}
+        - {x: 79, y: -103}
+        - {x: 97, y: -85.99999}
+        - {x: 107, y: -75}
+        - {x: 122, y: -44}
+        - {x: 126, y: -30}
+        - {x: 128, y: -21}
+        - {x: 128, y: 22}
+        - {x: 127, y: 27}
+        - {x: 120, y: 52}
+        - {x: 110, y: 69}
+        - {x: 98.99999, y: 83}
+        - {x: 84, y: 98.99999}
+        - {x: 62, y: 115}
+        - {x: 44, y: 122}
+        - {x: 30, y: 126}
+        - {x: 19, y: 128}
+        - {x: -21, y: 128}
+        - {x: -25, y: 127}
+        - {x: -44, y: 123}
+        - {x: -60, y: 115}
+        - {x: -76, y: 105}
+        - {x: -84, y: 98.99999}
+        - {x: -98.99999, y: 84}
+        - {x: -108, y: 72}
+        - {x: -122, y: 47}
+        - {x: -128, y: 23}
+        - {x: -128, y: -23}
+        - {x: -125, y: -35}
+        - {x: -121, y: -47}
+        - {x: -115, y: -60}
+        - {x: -108, y: -72}
+        - {x: -97, y: -87}
+        - {x: -79.99999, y: -102}
+        - {x: -72, y: -108}
+        - {x: -51, y: -119}
+        - {x: -43, y: -122}
+        - {x: -30, y: -126}
+        - {x: -19, y: -128}
+        - {x: 21, y: -128}
+        - {x: 30, y: -127}
+        - {x: 47, y: -121}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      stone_back_1: 21300002
+      stone_back_2: 21300004
+      stone_back_4: 21300008
+      stone_back_3: 21300006
+      stone_back_5: 21300010
+      stone_back_0: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

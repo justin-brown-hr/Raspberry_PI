@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ssh pi5@100.122.184.82:*)",
+      "Bash(scp:*)"
+    ]
+  }
+}

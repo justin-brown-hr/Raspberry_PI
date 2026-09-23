@@ -1,0 +1,358 @@
+fileFormatVersion: 2
+guid: 2523fc1088f64b9aaacc730f1d9067c1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: TowerBricks_1
+  - first:
+      213: 21300002
+    second: TowerBricks_2
+  - first:
+      213: 21300004
+    second: TowerBricks_3
+  - first:
+      213: 21300006
+    second: TowerBricks_4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 38.93536
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TowerBricks_3
+      rect:
+        serializedVersion: 2
+        x: 397.1407
+        y: 219.9848
+        width: 4.86692
+        height: 3.893536
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.43346, y: 1.946768}
+        - {x: 2.43346, y: 1.946768}
+        - {x: -2.43346, y: -1.946768}
+      - - {x: -2.43346, y: -1.946768}
+        - {x: 2.43346, y: 1.946768}
+        - {x: 2.43346, y: -1.946768}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerBricks_1
+      rect:
+        serializedVersion: 2
+        x: 243.346
+        y: 316.3498
+        width: 209
+        height: 105
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -104.5019, y: -47.57417}
+        - {x: -104.5019, y: -9.574161}
+        - {x: -97.50191, y: -52.57417}
+      - - {x: -84.5019, y: 26.42584}
+        - {x: -97.50191, y: -52.57417}
+        - {x: -104.5019, y: -9.574161}
+      - - {x: 104.4981, y: -52.57417}
+        - {x: -97.50191, y: -52.57417}
+        - {x: -84.5019, y: 26.42584}
+      - - {x: -20.5019, y: 52.42585}
+        - {x: 104.4981, y: -52.57417}
+        - {x: -84.5019, y: 26.42584}
+      - - {x: 59.49812, y: 52.42585}
+        - {x: 104.4981, y: -52.57417}
+        - {x: -20.5019, y: 52.42585}
+      - - {x: 104.4981, y: -8.574161}
+        - {x: 104.4981, y: -52.57417}
+        - {x: 59.49812, y: 52.42585}
+      physicsShape:
+      - - {x: 104.4981, y: -46.57416}
+        - {x: 104.4981, y: -13.57416}
+        - {x: 99.4981, y: -10.57416}
+        - {x: 81.4981, y: -8.574162}
+        - {x: 77.4981, y: 15.42584}
+        - {x: 58.4981, y: 14.42584}
+        - {x: 58.4981, y: 48.42584}
+        - {x: 54.4981, y: 52.42584}
+        - {x: -18.5019, y: 52.42584}
+        - {x: -25.5019, y: 41.42584}
+        - {x: -31.5019, y: 32.42584}
+        - {x: -59.5019, y: 30.42584}
+        - {x: -73.5019, y: 27.42584}
+        - {x: -80.5019, y: 20.42584}
+        - {x: -80.5019, y: -8.574162}
+        - {x: -102.5019, y: -13.57416}
+        - {x: -104.5019, y: -19.57416}
+        - {x: -104.5019, y: -45.57417}
+        - {x: -96.5019, y: -51.57416}
+        - {x: -58.5019, y: -52.57416}
+        - {x: 39.4981, y: -52.57416}
+        - {x: 42.4981, y: -49.57416}
+        - {x: 76.4981, y: -52.57416}
+        - {x: 103.4981, y: -52.57416}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerBricks_2
+      rect:
+        serializedVersion: 2
+        x: 4.86692
+        y: 157.6882
+        width: 311
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -155.365, y: -68.17489}
+        - {x: -155.365, y: -27.17491}
+        - {x: 141.635, y: -68.17489}
+      - - {x: -82.36501, y: 62.82512}
+        - {x: 141.635, y: -68.17489}
+        - {x: -155.365, y: -27.17491}
+      - - {x: -63.36503, y: 68.82509}
+        - {x: 141.635, y: -68.17489}
+        - {x: -82.36501, y: 62.82512}
+      - - {x: 74.63497, y: 68.82509}
+        - {x: 141.635, y: -68.17489}
+        - {x: -63.36503, y: 68.82509}
+      - - {x: 126.635, y: 25.82509}
+        - {x: 141.635, y: -68.17489}
+        - {x: 74.63497, y: 68.82509}
+      - - {x: 138.635, y: 14.8251}
+        - {x: 141.635, y: -68.17489}
+        - {x: 126.635, y: 25.82509}
+      - - {x: 144.635, y: -4.174904}
+        - {x: 141.635, y: -68.17489}
+        - {x: 138.635, y: 14.8251}
+      - - {x: 155.635, y: -51.1749}
+        - {x: 141.635, y: -68.17489}
+        - {x: 144.635, y: -4.174904}
+      - - {x: 154.635, y: -7.174905}
+        - {x: 155.635, y: -51.1749}
+        - {x: 144.635, y: -4.174904}
+      - - {x: 155.635, y: -8.174906}
+        - {x: 155.635, y: -51.1749}
+        - {x: 154.635, y: -7.174905}
+      physicsShape:
+      - - {x: 124.635, y: -61.1749}
+        - {x: 125.635, y: -46.1749}
+        - {x: 151.635, y: -38.1749}
+        - {x: 155.635, y: -36.1749}
+        - {x: 155.635, y: -12.1749}
+        - {x: 154.635, y: -4.174904}
+        - {x: 136.635, y: -2.174904}
+        - {x: 136.635, y: 16.8251}
+        - {x: 122.635, y: 25.8251}
+        - {x: 78.63498, y: 23.8251}
+        - {x: 78.63498, y: 32.8251}
+        - {x: 73.63498, y: 39.8251}
+        - {x: 29.63498, y: 40.8251}
+        - {x: 29.63498, y: 64.8251}
+        - {x: 25.63498, y: 68.8251}
+        - {x: -22.36502, y: 68.8251}
+        - {x: -26.36502, y: 63.8251}
+        - {x: -28.36502, y: 36.8251}
+        - {x: -42.36502, y: 38.8251}
+        - {x: -52.36502, y: 31.8251}
+        - {x: -60.36502, y: 15.8251}
+        - {x: -67.36502, y: 0.8250961}
+        - {x: -105.365, y: -9.174904}
+        - {x: -111.365, y: -12.1749}
+        - {x: -113.365, y: -28.1749}
+        - {x: -138.365, y: -27.1749}
+        - {x: -148.365, y: -29.17491}
+        - {x: -152.365, y: -35.1749}
+        - {x: -155.365, y: -43.1749}
+        - {x: -155.365, y: -61.1749}
+        - {x: -153.365, y: -68.1749}
+        - {x: -136.365, y: -67.1749}
+        - {x: -123.365, y: -67.1749}
+        - {x: -106.365, y: -68.1749}
+        - {x: -60.36502, y: -68.1749}
+        - {x: 7.634979, y: -66.1749}
+        - {x: 56.63498, y: -67.1749}
+        - {x: 103.635, y: -66.1749}
+        - {x: 122.635, y: -65.1749}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerBricks_4
+      rect:
+        serializedVersion: 2
+        x: 347.4981
+        y: 157.6882
+        width: 158
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.14449, y: -24.57034}
+        - {x: -79.14449, y: 6.429665}
+        - {x: -73.14447, y: -28.57034}
+      - - {x: -59.14448, y: 28.42966}
+        - {x: -73.14447, y: -28.57034}
+        - {x: -79.14449, y: 6.429665}
+      - - {x: 77.85554, y: -28.57034}
+        - {x: -73.14447, y: -28.57034}
+        - {x: -59.14448, y: 28.42966}
+      - - {x: 55.8555, y: 28.42966}
+        - {x: 77.85554, y: -28.57034}
+        - {x: -59.14448, y: 28.42966}
+      - - {x: 78.85551, y: 11.42966}
+        - {x: 77.85554, y: -28.57034}
+        - {x: 55.8555, y: 28.42966}
+      - - {x: 78.85551, y: -27.57034}
+        - {x: 77.85554, y: -28.57034}
+        - {x: 78.85551, y: 11.42966}
+      physicsShape:
+      - - {x: 47.85552, y: 28.42966}
+        - {x: -55.14448, y: 28.42966}
+        - {x: -57.14448, y: 22.42966}
+        - {x: -56.14448, y: 5.429663}
+        - {x: -73.14448, y: 3.429663}
+        - {x: -78.14448, y: 1.429663}
+        - {x: -79.14448, y: -8.570337}
+        - {x: -79.14448, y: -22.57034}
+        - {x: -76.14448, y: -26.57034}
+        - {x: 7.855522, y: -28.57034}
+        - {x: 74.85552, y: -28.57034}
+        - {x: 78.85552, y: -23.57034}
+        - {x: 78.85552, y: 3.429663}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TowerBricks_3: 21300004
+      TowerBricks_1: 21300000
+      TowerBricks_2: 21300002
+      TowerBricks_4: 21300006
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

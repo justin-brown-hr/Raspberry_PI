@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: 1ea6e795bd0d47ac8968ef6c057a7145
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: buttons_2_0
+  - first:
+      213: 21300002
+    second: buttons_2_1
+  - first:
+      213: 21300004
+    second: buttons_2_2
+  - first:
+      213: 21300006
+    second: AndroidSave
+  - first:
+      213: 21300008
+    second: AndroidLoad
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: buttons_2_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 17
+        width: 168
+        height: 166
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -84, y: -83}
+        - {x: -84, y: 67}
+        - {x: 84, y: -83}
+      - - {x: -57, y: 83}
+        - {x: 84, y: -83}
+        - {x: -84, y: 67}
+      - - {x: 46, y: 83}
+        - {x: 84, y: -83}
+        - {x: -57, y: 83}
+      - - {x: 84, y: 73}
+        - {x: 84, y: -83}
+        - {x: 46, y: 83}
+      physicsShape:
+      - - {x: 71, y: -50}
+        - {x: 81, y: -32}
+        - {x: 84, y: -20}
+        - {x: 84, y: 23}
+        - {x: 72.99999, y: 47}
+        - {x: 66, y: 56}
+        - {x: 43, y: 75}
+        - {x: 27, y: 82}
+        - {x: 19, y: 83}
+        - {x: -18, y: 83}
+        - {x: -31, y: 79.99999}
+        - {x: -48, y: 70}
+        - {x: -66.99999, y: 52}
+        - {x: -74, y: 43}
+        - {x: -84, y: 20}
+        - {x: -84, y: -13}
+        - {x: -79.99999, y: -31}
+        - {x: -74, y: -46}
+        - {x: -51, y: -69}
+        - {x: -40, y: -75}
+        - {x: -25, y: -81}
+        - {x: -18, y: -83}
+        - {x: 24, y: -83}
+        - {x: 45, y: -72.99999}
+        - {x: 51, y: -70}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AndroidSave
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 210
+        width: 167
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -83.5, y: -67}
+        - {x: -83.5, y: 36}
+        - {x: -35.5, y: -84}
+      - - {x: -72.5, y: 54}
+        - {x: -35.5, y: -84}
+        - {x: -83.5, y: 36}
+      - - {x: -51.5, y: 84}
+        - {x: -35.5, y: -84}
+        - {x: -72.5, y: 54}
+      - - {x: 83.5, y: 84}
+        - {x: -35.5, y: -84}
+        - {x: -51.5, y: 84}
+      - - {x: 80.5, y: -84}
+        - {x: -35.5, y: -84}
+        - {x: 83.5, y: 84}
+      - - {x: 83.5, y: -83}
+        - {x: 80.5, y: -84}
+        - {x: 83.5, y: 84}
+      physicsShape:
+      - - {x: 80.5, y: -32}
+        - {x: 83.5, y: -20}
+        - {x: 83.5, y: 23}
+        - {x: 72.5, y: 47}
+        - {x: 65.5, y: 56}
+        - {x: 42.5, y: 75}
+        - {x: 26.5, y: 82}
+        - {x: 13.5, y: 84}
+        - {x: -15.5, y: 84}
+        - {x: -31.5, y: 79.99999}
+        - {x: -48.5, y: 70}
+        - {x: -67.5, y: 52}
+        - {x: -73.49999, y: 43}
+        - {x: -78.5, y: 32}
+        - {x: -83.5, y: 20}
+        - {x: -83.5, y: -17}
+        - {x: -80.5, y: -31}
+        - {x: -72.5, y: -45}
+        - {x: -57.5, y: -64}
+        - {x: -40.5, y: -75}
+        - {x: -25.5, y: -81}
+        - {x: -14.5, y: -84}
+        - {x: 15.5, y: -84}
+        - {x: 32.5, y: -79.99999}
+        - {x: 50.5, y: -70}
+        - {x: 70.5, y: -50}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons_2_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 20
+        width: 169
+        height: 169
+      alignment: 9
+      pivot: {x: 0.5044298, y: 0.5086021}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -84.50002, y: -46.5}
+        - {x: -84.50002, y: 46.5}
+        - {x: -52.50002, y: -84.50001}
+      - - {x: -42.50002, y: 84.49999}
+        - {x: -52.50002, y: -84.50001}
+        - {x: -84.50002, y: 46.5}
+      - - {x: 40.49998, y: -84.50001}
+        - {x: -52.50002, y: -84.50001}
+        - {x: -42.50002, y: 84.49999}
+      - - {x: 45.49998, y: 84.49999}
+        - {x: 40.49998, y: -84.50001}
+        - {x: -42.50002, y: 84.49999}
+      - - {x: 48.49998, y: -80.49999}
+        - {x: 40.49998, y: -84.50001}
+        - {x: 45.49998, y: 84.49999}
+      - - {x: 83.49999, y: 66.49999}
+        - {x: 48.49998, y: -80.49999}
+        - {x: 45.49998, y: 84.49999}
+      - - {x: 84.49998, y: -51.5}
+        - {x: 48.49998, y: -80.49999}
+        - {x: 83.49999, y: 66.49999}
+      - - {x: 84.49998, y: 59.5}
+        - {x: 84.49998, y: -51.5}
+        - {x: 83.49999, y: 66.49999}
+      physicsShape:
+      - - {x: 70.49998, y: -49.5}
+        - {x: 80.49998, y: -31.5}
+        - {x: 84.49998, y: -15.5}
+        - {x: 84.49998, y: 21.5}
+        - {x: 72.49998, y: 47.5}
+        - {x: 65.49998, y: 56.5}
+        - {x: 42.49998, y: 75.5}
+        - {x: 26.49998, y: 82.49999}
+        - {x: 13.49998, y: 84.5}
+        - {x: -15.50002, y: 84.5}
+        - {x: -31.50002, y: 80.5}
+        - {x: -48.50002, y: 70.5}
+        - {x: -67.50002, y: 52.5}
+        - {x: -74.50001, y: 43.5}
+        - {x: -84.50002, y: 20.5}
+        - {x: -84.50002, y: -12.5}
+        - {x: -80.50001, y: -30.5}
+        - {x: -72.50002, y: -44.5}
+        - {x: -57.50002, y: -63.5}
+        - {x: -40.50002, y: -74.5}
+        - {x: -25.50002, y: -80.5}
+        - {x: -14.50001, y: -83.49999}
+        - {x: 14.49998, y: -83.49999}
+        - {x: 23.49998, y: -82.5}
+        - {x: 44.49998, y: -72.5}
+        - {x: 50.49998, y: -69.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons_2_0
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 211
+        width: 168.9239
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -84.46194, y: -65}
+        - {x: -84.46194, y: 54}
+        - {x: -45.46194, y: -84}
+      - - {x: -34.46194, y: 84}
+        - {x: -45.46194, y: -84}
+        - {x: -84.46194, y: 54}
+      - - {x: 79.53806, y: -84}
+        - {x: -45.46194, y: -84}
+        - {x: -34.46194, y: 84}
+      - - {x: 62.53806, y: 84}
+        - {x: 79.53806, y: -84}
+        - {x: -34.46194, y: 84}
+      - - {x: 84.53806, y: 50}
+        - {x: 79.53806, y: -84}
+        - {x: 62.53806, y: 84}
+      - - {x: 84.53806, y: -79}
+        - {x: 79.53806, y: -84}
+        - {x: 84.53806, y: 50}
+      physicsShape:
+      - - {x: 72.53806, y: -57}
+        - {x: 79.53806, y: -51}
+        - {x: 75.53806, y: -42}
+        - {x: 83.53806, y: -23}
+        - {x: 83.53806, y: 21}
+        - {x: 71.53806, y: 47}
+        - {x: 64.53806, y: 56}
+        - {x: 42.53806, y: 76}
+        - {x: 18.53806, y: 84}
+        - {x: -23.46194, y: 84}
+        - {x: -44.46194, y: 74}
+        - {x: -53.46194, y: 68}
+        - {x: -73.46194, y: 46}
+        - {x: -80.46194, y: 49}
+        - {x: -84.46194, y: 42}
+        - {x: -84.46194, y: 36}
+        - {x: -79.46194, y: 33}
+        - {x: -84.46194, y: 23}
+        - {x: -84.46194, y: -17}
+        - {x: -80.46194, y: -30}
+        - {x: -73.46194, y: -45}
+        - {x: -58.46194, y: -64}
+        - {x: -41.46194, y: -75}
+        - {x: -26.46194, y: -81}
+        - {x: -15.46194, y: -84}
+        - {x: 14.53806, y: -84}
+        - {x: 31.53806, y: -79.99999}
+        - {x: 49.53805, y: -69}
+        - {x: 68.53806, y: -56}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AndroidLoad
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 167
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -83.5, y: -67}
+        - {x: -83.5, y: 36}
+        - {x: -35.5, y: -84}
+      - - {x: -72.5, y: 54}
+        - {x: -35.5, y: -84}
+        - {x: -83.5, y: 36}
+      - - {x: -51.5, y: 84}
+        - {x: -35.5, y: -84}
+        - {x: -72.5, y: 54}
+      - - {x: 83.5, y: 84}
+        - {x: -35.5, y: -84}
+        - {x: -51.5, y: 84}
+      - - {x: 80.5, y: -84}
+        - {x: -35.5, y: -84}
+        - {x: 83.5, y: 84}
+      - - {x: 83.5, y: -83}
+        - {x: 80.5, y: -84}
+        - {x: 83.5, y: 84}
+      physicsShape:
+      - - {x: 80.5, y: -32}
+        - {x: 83.5, y: -20}
+        - {x: 83.5, y: 23}
+        - {x: 72.5, y: 47}
+        - {x: 65.5, y: 56}
+        - {x: 42.5, y: 75}
+        - {x: 26.5, y: 82}
+        - {x: 13.5, y: 84}
+        - {x: -15.5, y: 84}
+        - {x: -31.5, y: 79.99999}
+        - {x: -48.5, y: 70}
+        - {x: -67.5, y: 52}
+        - {x: -73.49999, y: 43}
+        - {x: -78.5, y: 32}
+        - {x: -83.5, y: 20}
+        - {x: -83.5, y: -17}
+        - {x: -80.5, y: -31}
+        - {x: -72.5, y: -45}
+        - {x: -57.5, y: -64}
+        - {x: -40.5, y: -75}
+        - {x: -25.5, y: -81}
+        - {x: -14.5, y: -84}
+        - {x: 15.5, y: -84}
+        - {x: 32.5, y: -79.99999}
+        - {x: 50.5, y: -70}
+        - {x: 70.5, y: -50}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      buttons_2_1: 21300002
+      AndroidLoad: 21300008
+      buttons_2_0: 21300000
+      buttons_2_2: 21300004
+      AndroidSave: 21300006
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

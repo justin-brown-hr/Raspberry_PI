@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 1912e0fed1024df9adbf1688d79e7bac
+timeCreated: 1598269037
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "comicbd"
+  fontNames:
+  - Comic Sans MS
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

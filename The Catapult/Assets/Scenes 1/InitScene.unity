@@ -1,0 +1,2070 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!196 &1
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!29 &9999991
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &9999992
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &9999993
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!1 &1790260161227713678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790260161227713698}
+  - component: {fileID: 1790260161227713727}
+  m_Layer: 0
+  m_Name: AdmobAndAnalytics
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790260161227713679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790260161227713699}
+  - component: {fileID: 1790260161227713728}
+  m_Layer: 0
+  m_Name: KTGameCenter
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790260161227713680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790260161227713724}
+  - component: {fileID: 1790260161227713723}
+  - component: {fileID: 1790260161227713730}
+  - component: {fileID: 1790260161227713729}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790260161227713681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790260161227713700}
+  - component: {fileID: 1790260161227713731}
+  m_Layer: 0
+  m_Name: BYV_iCloudSaved
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790260161227713683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790260161227713702}
+  - component: {fileID: 1790260161227713732}
+  m_Layer: 0
+  m_Name: DataController
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790260161227713684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790260161227713703}
+  - component: {fileID: 1790260161227713733}
+  m_Layer: 0
+  m_Name: Unity_SavedGame
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790260161227713685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790260161227713704}
+  - component: {fileID: 1790260161227713734}
+  m_Layer: 0
+  m_Name: Unity_PurchaiseIAP
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790260161227713686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790260161227713705}
+  - component: {fileID: 1790260161227713716}
+  - component: {fileID: 1790260161227713720}
+  - component: {fileID: 1790260161227713717}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790260161227713687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790260161227713706}
+  - component: {fileID: 1790260161227713735}
+  m_Layer: 0
+  m_Name: SavegameManager
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790260161227713688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790260161227713707}
+  - component: {fileID: 1790260161227713736}
+  m_Layer: 0
+  m_Name: BYV_Notification
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790260161227713689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790260161227713708}
+  - component: {fileID: 1790260161227713737}
+  - component: {fileID: 1790260161227713738}
+  - component: {fileID: 1790260161227713739}
+  m_Layer: 0
+  m_Name: BYV_LeaderBoard
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790260161227713690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790260161227713709}
+  - component: {fileID: 1790260161227713740}
+  - component: {fileID: 1790260161227713742}
+  - component: {fileID: 1790260161227713741}
+  m_Layer: 0
+  m_Name: InitController
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790260161227713691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790260161227713710}
+  - component: {fileID: 1790260161227713726}
+  - component: {fileID: 1790260161227713743}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790260161227713692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790260161227713711}
+  - component: {fileID: 1790260161227713744}
+  m_Layer: 0
+  m_Name: ProjectileControl
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790260161227713693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790260161227713712}
+  - component: {fileID: 1790260161227713745}
+  m_Layer: 0
+  m_Name: AchievementManager
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790260161227713694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790260161227713725}
+  - component: {fileID: 1790260161227713722}
+  - component: {fileID: 1790260161227713746}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790260161227713695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790260161227713713}
+  - component: {fileID: 1790260161227713747}
+  m_Layer: 0
+  m_Name: UpgradeShopData
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790260161227713696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790260161227713714}
+  - component: {fileID: 1790260161227713748}
+  m_Layer: 0
+  m_Name: BYV_GoogleAnalytics
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790260161227713697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790260161227713715}
+  - component: {fileID: 1790260161227713749}
+  m_Layer: 0
+  m_Name: BYV_ScenesLoader
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1790260161227713698
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713678}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790260161227713699
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713679}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790260161227713700
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713681}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.659694, y: 0.08647747, z: 4.538313}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790260161227713702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713683}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.59217, y: -3.324862, z: 0.1723436}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790260161227713703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790260161227713704
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713685}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790260161227713705
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713686}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790260161227713706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713687}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.56053, y: -1.991018, z: -309.8411}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790260161227713707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713688}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.2591, y: 12.99168, z: -0.06352854}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790260161227713708
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713689}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.659694, y: 0.08647747, z: 4.538313}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790260161227713709
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713690}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -41.4719, y: -144.0639, z: 208.9227}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790260161227713710
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713691}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790260161227713711
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713692}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -32.44046, y: 0.4303274, z: -3.761069}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790260161227713712
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.2219846, y: -1.744677, z: -8.003616}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790260161227713713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -41.4719, y: -144.0639, z: 208.9227}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790260161227713714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713696}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790260161227713715
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713697}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &1790260161227713716
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713686}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 100
+  field of view: 60
+  orthographic: 1
+  orthographic size: 25.67
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &1790260161227713717
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713686}
+  m_Enabled: 1
+--- !u!124 &1790260161227713720
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713686}
+  m_Enabled: 1
+--- !u!222 &1790260161227713722
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713694}
+  m_CullTransparentMesh: 0
+--- !u!223 &1790260161227713723
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713680}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 1790260161227713716}
+  m_PlaneDistance: 50
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1790260161227713724
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713680}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1790260161227713725}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!224 &1790260161227713725
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713694}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_Children: []
+  m_Father: {fileID: 1790260161227713724}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 460, y: 330}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1790260161227713726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!114 &1790260161227713727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 283766ae48597d2ea46a069ded71d972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BannerAdPosition: 1
+  ShowBanner: 0
+--- !u!114 &1790260161227713728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9421b98d954a1da14cc6937923f8d468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1790260161227713729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1790260161227713730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!114 &1790260161227713731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 088f7e5707740317ff65b41a1b9cdcc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1790260161227713732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f884bdd12f73fe77fcc8db73b6899e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug_mode: 0
+  deleteAllPlayerPrefs: 0
+--- !u!114 &1790260161227713733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d6a5823255953b7bd4af10bb2114c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1790260161227713734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbfc367ee390ae8826f8d4308f679442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Status_Admob_Purchase: 1
+--- !u!114 &1790260161227713735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ce3f85a5e2cfeeb6f884589714016b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1790260161227713736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b2a53931dfbb497650d4ff168ed02a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1790260161227713737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f0e64ec1c52b8e6e7d7a51357b759d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1790260161227713738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b3a8ba3d971db92669a97fc90938d56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1790260161227713739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0fbac68f19dbfc186bfae870c55606e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stat_FPS: 0
+--- !u!114 &1790260161227713740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff5340d7704b5d6f4adc18bfc52358a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  guiPressed: 0
+  guiPressedFingerId: 0
+  lastOpenedShopWindow: 0
+  logoImage: {fileID: 1790260161227713746}
+--- !u!114 &1790260161227713741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 442a599b6e66591b1df9b6f6da9ff253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1790260161227713742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa48093f94946c78073889849b28b36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  purchaseSoundName: Purchase/1
+  pressSoundName: Click/1
+  backgroundMusicName:
+  - Background/1
+  crowScreamName:
+  - CrowScream/1
+  woodPartHitName:
+  - WoodHit/1
+  - WoodHit/2
+  - WoodHit/3
+  - WoodHit/4
+  - WoodHit/5
+  stonePartHitName:
+  - StoneHit/1
+  - StoneHit/2
+  - StoneHit/3
+  playerHitName:
+  - PlayerHit/1
+  crowHitName:
+  - CrowHit/1
+  crowHitAfterName:
+  - CrowHitAfter/1
+  playerBleedName:
+  - PlayerBleed/1
+  playerDeathName:
+  - PlayerDeath/1
+  - PlayerDeath/2
+  - PlayerDeath/3
+  - PlayerDeath/4
+  - PlayerDeath/5
+  - PlayerDeath/6
+  - PlayerDeath/7
+  - PlayerDeath/8
+  woodSplashName:
+  - WoodSplash/1
+  stoneSplashName:
+  - StoneSplash/1
+  playerSplashName: []
+  bombExplosionName:
+  - BombExplosion/1
+  bigBombExplosionName:
+  - BigBombExplosion/1
+  catapultLaunchName:
+  - CatapultLaunch/1
+  - CatapultLaunch/2
+  - CatapultLaunch/3
+  catapultAimingName:
+  - CatapultAiming/1
+  - CatapultAiming/2
+  stoneBrokeName:
+  - StoneBroke/1
+  - StoneBroke/2
+  - StoneBroke/3
+  - StoneBroke/4
+  woodBrokeName:
+  - WoodBroke/1
+  playerJumpName:
+  - PlayerJump/1
+  - PlayerJump/2
+  catapultMovingName:
+  - CatapultMoving/1
+  bombSoundFireName:
+  - Bombfire/1
+  towerMoveName:
+  - TowerMoving/1
+  - TowerMoving/2
+  fireWorksName:
+  - Fireworks/1
+  catapultUpgradeName:
+  - CatapultUpgrade/1
+  - CatapultUpgrade/2
+  - CatapultUpgrade/3
+  - CatapultUpgrade/4
+  - CatapultUpgrade/5
+  - CatapultUpgrade/6
+  - CatapultUpgrade/7
+  helmetEquipName:
+  - HelmetEquip/1
+  - HelmetEquip/2
+  - HelmetEquip/3
+  projectileEquipName:
+  - ProjectileEquip/1
+  catapultEquipName:
+  - CatapultEquip/1
+  - CatapultEquip/2
+  shieldEquipName:
+  - ShieldEquip/1
+  - ShieldEquip/2
+  shieldReactName:
+  - ShieldHit/1
+  projectileShootThornsName:
+  - ProjectileShootThorns/1
+  FireProjectileName:
+  - FireProjectile/1
+  barrelDestroyName:
+  - BarrelDestroy/1
+  - BarrelDestroy/2
+  - BarrelDestroy/3
+  acidExplodeName:
+  - AcidExplode/1
+  helmetHitName:
+  - HelmetHit/1
+  - HelmetHit/2
+  - HelmetHit/3
+  shieldHitName:
+  - ProjectileHitShield/1
+  slotClearName:
+  - SlotClear/1
+  spoonDestroyName:
+  - SpoonDestroy/1
+  bossIncomingName:
+  - BossEncouter/1
+--- !u!114 &1790260161227713743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1790260161227713744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2e83487cb77636c604323d6173396d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileSpriteByIndex:
+  - {fileID: 21300000, guid: bc1b9820c80c446abff5e13addf22df6, type: 3}
+  - {fileID: 21300004, guid: bc1b9820c80c446abff5e13addf22df6, type: 3}
+  - {fileID: 21300002, guid: bc1b9820c80c446abff5e13addf22df6, type: 3}
+  - {fileID: 21300002, guid: 36ade2af32ee4932b661ad1e7909259f, type: 3}
+  - {fileID: 21300000, guid: 36ade2af32ee4932b661ad1e7909259f, type: 3}
+  - {fileID: 21300000, guid: 8770c00effcd4289b13570018c5c1a67, type: 3}
+  - {fileID: 21300006, guid: 36ade2af32ee4932b661ad1e7909259f, type: 3}
+  - {fileID: 21300008, guid: 36ade2af32ee4932b661ad1e7909259f, type: 3}
+  - {fileID: 21300010, guid: 36ade2af32ee4932b661ad1e7909259f, type: 3}
+  - {fileID: 21300004, guid: 36ade2af32ee4932b661ad1e7909259f, type: 3}
+  projectilePrefabByIndex:
+  - {fileID: 1790260161227713678, guid: 0a2f7255294eb6745a30ef46d7093cc2, type: 3}
+  - {fileID: 1790260161227713852, guid: 78e3d97d625adc544b631b834a0c0466, type: 3}
+  - {fileID: 1790260161227713811, guid: b47dd86eb2f78a6459a4ec3bb7397bc8, type: 3}
+  - {fileID: 1790260161227713808, guid: 3d74a92da3a2e8e4eb22dec0fd93cfc7, type: 3}
+  - {fileID: 1790260161227713874, guid: 0eb9896f37f11df4da0a748768606ea7, type: 3}
+  - {fileID: 1790260161227713859, guid: 1a1e73f01b2d0334ca11e7f589d407dd, type: 3}
+  - {fileID: 1790260161227713839, guid: 5cca7efe59f353749ab69e181e7018bb, type: 3}
+  - {fileID: 1790260161227713883, guid: 010b063f8e2859740b8f8c66811a781b, type: 3}
+  - {fileID: 1790260161227713842, guid: b69658831e588fa4f8729a2296cab908, type: 3}
+  - {fileID: 1790260161227713816, guid: b53b3083318a4764f9e2810335e895b3, type: 3}
+  projectileRechargeByIndex:
+  - 0.5
+  - 1.5
+  - 2.5
+  - 1.25
+  - 1.75
+  - 2.5
+  - 3
+  - 0.5
+  - 1.75
+  - 2.5
+  projectileTypeByIndex: 00000000020000000100000003000000040000000800000009000000050000000600000007000000
+  projectileCostByIndex: 0000000064000000320000000a0000006400000064000000500000000500000096000000c8000000
+--- !u!114 &1790260161227713745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 103378fb5c83e4202e6d6d9db63b24fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfAchievements:
+  - type: 0
+    region: 1
+    name: Newbie
+    description: 'Kill 10 opponents for the entire game. '
+    image: {fileID: 21300000, guid: 989ae7e75ae84f9daf632880bb873752, type: 3}
+    currentProgress: 0
+    targetProgress: 10
+    reward: 0
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQAg
+  - type: 0
+    region: 1
+    name: Master
+    description: Kill 100 enemies for the entire game.
+    image: {fileID: 21300002, guid: 989ae7e75ae84f9daf632880bb873752, type: 3}
+    currentProgress: 0
+    targetProgress: 100
+    reward: 0
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQBA
+  - type: 0
+    region: 1
+    name: Professional
+    description: Kill 500 opponents for the entire game.
+    image: {fileID: 21300004, guid: 989ae7e75ae84f9daf632880bb873752, type: 3}
+    currentProgress: 0
+    targetProgress: 500
+    reward: 0
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQAw
+  - type: 0
+    region: 1
+    name: Die hard
+    description: Kill 1000 opponents for the entire game
+    image: {fileID: 21300006, guid: 989ae7e75ae84f9daf632880bb873752, type: 3}
+    currentProgress: 0
+    targetProgress: 1000
+    reward: 0
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQBQ
+  - type: 0
+    region: 1
+    name: Destroyer
+    description: 'Destroy 3,000 opponents for the entire game. '
+    image: {fileID: 21300008, guid: 989ae7e75ae84f9daf632880bb873752, type: 3}
+    currentProgress: 0
+    targetProgress: 3000
+    reward: 5000
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 5
+    achievementID: CgkIkYaDjYwaEAIQBg
+  - type: 1
+    region: 1
+    name: One punch
+    description: Make 1 double kill.
+    image: {fileID: 21300010, guid: 989ae7e75ae84f9daf632880bb873752, type: 3}
+    currentProgress: 0
+    targetProgress: 1
+    reward: 50
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQBw
+  - type: 1
+    region: 0
+    name: Sniper
+    description: Make a double hit 10 times per game
+    image: {fileID: 21300012, guid: 989ae7e75ae84f9daf632880bb873752, type: 3}
+    currentProgress: 0
+    targetProgress: 10
+    reward: 500
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 5
+    achievementID: CgkIkYaDjYwaEAIQCA
+  - type: 2
+    region: 1
+    name: Never miss
+    description: Make a triple kill.
+    image: {fileID: 21300014, guid: 989ae7e75ae84f9daf632880bb873752, type: 3}
+    currentProgress: 0
+    targetProgress: 1
+    reward: 100
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQCQ
+  - type: 2
+    region: 0
+    name: Legolas
+    description: 'Make a triple kill 5 times per game. '
+    image: {fileID: 21300016, guid: 989ae7e75ae84f9daf632880bb873752, type: 3}
+    currentProgress: 0
+    targetProgress: 5
+    reward: 1000
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 5
+    achievementID: CgkIkYaDjYwaEAIQCg
+  - type: 3
+    region: 1
+    name: Spender
+    description: Spend 15,000 gold in general.
+    image: {fileID: 21300018, guid: 989ae7e75ae84f9daf632880bb873752, type: 3}
+    currentProgress: 0
+    targetProgress: 15000
+    reward: 4999
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQCw
+  - type: 3
+    region: 1
+    name: Rich man
+    description: Spend 100,000 gold in general.
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 100000
+    reward: 20000
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQDQ
+  - type: 4
+    region: 1
+    name: The Hatter
+    description: Unlock all helmets
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 10
+    reward: 2500
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQDg
+  - type: 5
+    region: 1
+    name: Collector
+    description: Unlock all the catapults
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 3
+    reward: 9000
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQDw
+  - type: 3
+    region: 0
+    name: Dealer
+    description: Spend 1000 gold in one game
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 1000
+    reward: 300
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQEA
+  - type: 3
+    region: 0
+    name: Merchant
+    description: Spend 10 000 gold in one game.
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 10000
+    reward: 3000
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQEQ
+  - type: 7
+    region: 1
+    name: Freeloader
+    description: To see advertising in the store 10 times.
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 10
+    reward: 500
+    isAchieved: 0
+    isIncrement: 1
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQEg
+  - type: 8
+    region: 1
+    name: The bird hunter
+    description: Shoot down 10 crows.
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 10
+    reward: 250
+    isAchieved: 0
+    isIncrement: 1
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQEw
+  - type: 8
+    region: 1
+    name: Ornithologist
+    description: Shoot down 100 crows.
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 100
+    reward: 1000
+    isAchieved: 0
+    isIncrement: 1
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQFA
+  - type: 9
+    region: 1
+    name: More gold.
+    description: Get 1000 gold from the shot down birds
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 1000
+    reward: 0
+    isAchieved: 0
+    isIncrement: 1
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQFQ
+  - type: 10
+    region: 1
+    name: Unlucky bird
+    description: 'Shoot down the crow with a thorn from the bomb. '
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 1
+    reward: 250
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQFg
+  - type: 11
+    region: 1
+    name: 'Burn them! '
+    description: Release 500 fire shells.
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 500
+    reward: 2000
+    isAchieved: 0
+    isIncrement: 1
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQFw
+  - type: 12
+    region: 1
+    name: Badaboom!
+    description: 'Release 500 bombs for the entire game. '
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 500
+    reward: 500
+    isAchieved: 0
+    isIncrement: 1
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQGA
+  - type: 13
+    region: 1
+    name: 'That works '
+    description: 'Shoot 1000 barrels. '
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 1000
+    reward: 500
+    isAchieved: 0
+    isIncrement: 1
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQGQ
+  - type: 14
+    region: 1
+    name: Air Defense
+    description: 'Shoot down 100 enemy shells. '
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 100
+    reward: 500
+    isAchieved: 0
+    isIncrement: 1
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQGg
+  - type: 15
+    region: 1
+    name: 'This is an accident! '
+    description: 'Kill the enemy with a reflected projectile. '
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 1
+    reward: 250
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQGw
+  - type: 15
+    region: 1
+    name: A pleasant surprise
+    description: 'Kill the enemy with a reflected projectile 10 times. '
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 10
+    reward: 1500
+    isAchieved: 0
+    isIncrement: 1
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQHA
+  - type: 16
+    region: 1
+    name: Bad day.
+    description: Killed 10 times for all time.
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 10
+    reward: 200
+    isAchieved: 0
+    isIncrement: 1
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQHQ
+  - type: 17
+    region: 1
+    name: Persistent
+    description: 'Click to continue the game. '
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 1
+    reward: 100
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQHg
+  - type: 18
+    region: 1
+    name: Visitor
+    description: Come into the game 7 days in a row.
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 7
+    reward: 5000
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQHw
+  - type: 19
+    region: 1
+    name: Defender
+    description: Beat the boss after destroying 50 simple catapults in one game.
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 1
+    reward: 250
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQIA
+  - type: 22
+    region: 1
+    name: Stronghold
+    description: Beat the boss after destroying 100 simple catapults in one game
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 1
+    reward: 500
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQIQ
+  - type: 23
+    region: 1
+    name: Unshackled
+    description: 'Beat the boss after destroying 150 simple catapults in one game. '
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 1
+    reward: 750
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQIg
+  - type: 24
+    region: 1
+    name: Indestructible
+    description: Beat the boss after destroying 200 simple catapults in one game.
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 1
+    reward: 1000
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQIw
+  - type: 25
+    region: 1
+    name: The hero of the siege
+    description: 'Beat the boss after destroying 250 simple catapults in one game. '
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 1
+    reward: 1250
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQJA
+  - type: 20
+    region: 1
+    name: Force field
+    description: Unlock all three dissolving shields.
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 3
+    reward: 1000
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQJQ
+  - type: 21
+    region: 1
+    name: Magic protection
+    description: Unlock all three reflective shields..
+    image: {fileID: 0}
+    currentProgress: 0
+    targetProgress: 3
+    reward: 2000
+    isAchieved: 0
+    isIncrement: 0
+    isRepeatable: 0
+    currentRepeatCount: 0
+    maxRepeatCount: 0
+    achievementID: CgkIkYaDjYwaEAIQJg
+--- !u!114 &1790260161227713746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 633b90a7cb5b43db82d7a0174afb6608, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1790260161227713747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ffb153a4cd82da67c2b2ba631cfcb8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  catapult_1_byLevel_new:
+  - catapult_0_00
+  - catapult_0_01
+  - catapult_0_02
+  - catapult_0_03
+  - catapult_0_04
+  - catapult_0_05
+  - catapult_0_06
+  - catapult_0_07
+  - catapult_0_08
+  - catapult_0_09
+  - catapult_0_10
+  catapult_1_byHP:
+  - 1
+  - 1.25
+  - 1.5
+  - 1.75
+  - 2
+  - 2.25
+  - 2.5
+  - 2.75
+  - 3
+  - 3.25
+  - 3.5
+  catapult_1_byCost: c8000000900100005802000020030000e8030000b0040000780500004006000008070000d0070000ffffffff
+  catapult_2_byLevel_new:
+  - catapult_1_00
+  - catapult_1_01
+  - catapult_1_02
+  - catapult_1_03
+  - catapult_1_04
+  - catapult_1_05
+  - catapult_1_06
+  - catapult_1_07
+  - catapult_1_08
+  - catapult_1_09
+  - catapult_1_10
+  catapult_2_byHP:
+  - 2.5
+  - 2.75
+  - 3
+  - 3.25
+  - 3.5
+  - 3.75
+  - 4
+  - 4.25
+  - 4.5
+  - 4.75
+  - 5
+  catapult_2_byCost: 7d000000e100000045010000a90100000d02000071020000d5020000390300009d03000001040000ffffffff
+  catapult_3_byLevel_new:
+  - catapult_2_00
+  - catapult_2_01
+  - catapult_2_02
+  - catapult_2_03
+  - catapult_2_04
+  - catapult_2_05
+  - catapult_2_06
+  - catapult_2_07
+  - catapult_2_08
+  - catapult_2_09
+  - catapult_2_10
+  catapult_3_byHP:
+  - 4
+  - 4.25
+  - 4.5
+  - 4.75
+  - 5
+  - 5.25
+  - 5.5
+  - 5.75
+  - 6
+  - 6.25
+  - 6.5
+  catapult_3_byCost: 2c010000f4010000bc020000840300004c04000014050000dc050000a40600006c07000034080000ffffffff
+  helmetSprites:
+  - {fileID: 21300008, guid: 5fef0539fff04eaba1e5e818a722b64d, type: 3}
+  - {fileID: 21300010, guid: 5fef0539fff04eaba1e5e818a722b64d, type: 3}
+  - {fileID: 21300000, guid: 5fef0539fff04eaba1e5e818a722b64d, type: 3}
+  - {fileID: 21300002, guid: 5fef0539fff04eaba1e5e818a722b64d, type: 3}
+  - {fileID: 21300004, guid: 5fef0539fff04eaba1e5e818a722b64d, type: 3}
+  - {fileID: 21300014, guid: 5fef0539fff04eaba1e5e818a722b64d, type: 3}
+  - {fileID: 21300006, guid: 5fef0539fff04eaba1e5e818a722b64d, type: 3}
+  - {fileID: 21300012, guid: 5fef0539fff04eaba1e5e818a722b64d, type: 3}
+  - {fileID: 21300018, guid: 5fef0539fff04eaba1e5e818a722b64d, type: 3}
+  - {fileID: 21300016, guid: 5fef0539fff04eaba1e5e818a722b64d, type: 3}
+  playerHPIncrease:
+  - 1
+  - 1.3
+  - 1.6
+  - 1.9
+  - 2.2
+  - 2.5
+  - 2.5
+  - 2.5
+  - 3.5
+  - 3.5
+  - 3.5
+  shieldPrefab:
+  - {fileID: 1790260161227713798, guid: 369bb56ced992bd4ba8ed330cde0dd98, type: 3}
+  - {fileID: 1790260161227713787, guid: 1709833acf5d82443b3aaa26d1b436c1, type: 3}
+  - {fileID: 1790260161227713869, guid: aa4c00187c2ac804fa293fa5b3a6f539, type: 3}
+  - {fileID: 1790260161227713807, guid: b54c5dcf8f96cb74ea51019b981e0a57, type: 3}
+  - {fileID: 1790260161227713855, guid: c2c94a067c3ccc947975d2aada5f82e8, type: 3}
+  - {fileID: 1790260161227713879, guid: 5fbaeca346018c24f9507a89b3536e26, type: 3}
+  shieldIcon:
+  - {fileID: 21300000, guid: 5aac01c4186a46e5963dc9da2058abc4, type: 3}
+  - {fileID: 21300002, guid: 5aac01c4186a46e5963dc9da2058abc4, type: 3}
+  - {fileID: 21300004, guid: 5aac01c4186a46e5963dc9da2058abc4, type: 3}
+  - {fileID: 21300006, guid: 5aac01c4186a46e5963dc9da2058abc4, type: 3}
+  - {fileID: 21300008, guid: 5aac01c4186a46e5963dc9da2058abc4, type: 3}
+  - {fileID: 21300010, guid: 5aac01c4186a46e5963dc9da2058abc4, type: 3}
+  shieldRechargeTime:
+  - 3
+  - 4.5
+  - 3
+  - 3
+  - 4.5
+  - 3
+  shieldActiveTime:
+  - 6
+  - 9
+  - 1
+  - 6
+  - 9
+  - 1
+  enemy_big_byLevel_name:
+  - enemy_big_0
+  - enemy_big_1
+  - enemy_big_2
+  - enemy_big_3
+  - enemy_big_4
+  - enemy_big_5
+  enemy_big_byHP:
+  - 2
+  - 2.5
+  - 3
+  - 3.5
+  - 4
+  - 4.5
+  enemy_ground_0_byLevel_name:
+  - enemy_ground_0_0
+  - enemy_ground_0_1
+  - enemy_ground_0_2
+  - enemy_ground_0_3
+  - enemy_ground_0_4
+  - enemy_ground_0_5
+  enemy_ground_0_byHP:
+  - 2
+  - 2.5
+  - 3
+  - 3.5
+  - 4
+  - 4.5
+  enemy_ground_1_byLevel_name:
+  - enemy_ground_1_0
+  - enemy_ground_1_1
+  - enemy_ground_1_2
+  - enemy_ground_1_3
+  - enemy_ground_1_4
+  - enemy_ground_1_5
+  enemy_ground_1_byHP:
+  - 3
+  - 3.5
+  - 4
+  - 4.5
+  - 5
+  enemy_ground_2_byLevel_name:
+  - enemy_ground_2_0
+  - enemy_ground_2_1
+  - enemy_ground_2_2
+  - enemy_ground_2_3
+  - enemy_ground_2_4
+  enemy_ground_2_byHP:
+  - 4
+  - 4.5
+  - 5
+  - 5.5
+  - 6
+  enemy_ground_3_byLevel_name:
+  - enemy_ground_3_0
+  - enemy_ground_3_1
+  - enemy_ground_3_2
+  - enemy_ground_3_3
+  - enemy_ground_3_4
+  enemy_ground_3_byHP:
+  - 4
+  - 4.5
+  - 5
+  - 5.5
+  - 6
+  enemy_0_destr_name:
+  - catapult_0_00
+  - catapult_0_01
+  - catapult_0_02
+  - catapult_0_03
+  - catapult_0_04
+  - catapult_0_05
+  - catapult_0_06
+  - catapult_0_07
+  - catapult_0_08
+  - catapult_0_09
+  - catapult_0_10
+  enemy_1_destr_name:
+  - enemy_big_0
+  - enemy_big_1
+  - enemy_big_2
+  - enemy_big_3
+  - enemy_big_4
+  - enemy_big_5
+  enemy_2g_destr_name:
+  - enemy_ground_0_0
+  - enemy_ground_0_1
+  - enemy_ground_0_2
+  - enemy_ground_0_3
+  - enemy_ground_0_4
+  - enemy_ground_0_5
+  enemy_3g_destr_name:
+  - enemy_ground_1_0
+  - enemy_ground_1_1
+  - enemy_ground_1_2
+  - enemy_ground_1_3
+  - enemy_ground_1_3
+  enemy_4g_destr_name:
+  - enemy_ground_2_0
+  - enemy_ground_2_1
+  - enemy_ground_2_2
+  - enemy_ground_2_3
+  - enemy_ground_2_4
+  enemy_5g_destr_name:
+  - enemy_ground_3_0
+  - enemy_ground_3_1
+  - enemy_ground_3_2
+  - enemy_ground_3_3
+  - enemy_ground_3_4
+  player_1_destr_name:
+  - catapult_1_00
+  - catapult_1_01
+  - catapult_1_02
+  - catapult_1_03
+  - catapult_1_04
+  - catapult_1_05
+  - catapult_1_06
+  - catapult_1_07
+  - catapult_1_08
+  - catapult_1_09
+  - catapult_1_10
+  player_2_destr_name:
+  - catapult_2_00
+  - catapult_2_01
+  - catapult_2_02
+  - catapult_2_03
+  - catapult_2_04
+  - catapult_2_05
+  - catapult_2_06
+  - catapult_2_07
+  - catapult_2_08
+  - catapult_2_09
+  - catapult_2_10
+--- !u!114 &1790260161227713748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da7f8623f48bff283b55036be7ce2115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1790260161227713749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790260161227713697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 413c4d97b6736403a3478f31644376fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

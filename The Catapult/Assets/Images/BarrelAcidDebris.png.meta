@@ -1,0 +1,635 @@
+fileFormatVersion: 2
+guid: 82b9221904004c8da26cb682046cee5f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: BarrelAcidDebris_0
+  - first:
+      213: 21300002
+    second: BarrelAcidDebris_1
+  - first:
+      213: 21300004
+    second: BarrelAcidDebris_2
+  - first:
+      213: 21300006
+    second: BarrelAcidDebris_3
+  - first:
+      213: 21300008
+    second: BarrelAcidDebris_4
+  - first:
+      213: 21300010
+    second: BarrelAcidDebris_5
+  - first:
+      213: 21300012
+    second: BarrelAcidDebris_6
+  - first:
+      213: 21300014
+    second: BarrelAcidDebris_7
+  - first:
+      213: 21300016
+    second: BarrelAcidDebris_8
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BarrelAcidDebris_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 86
+        width: 172
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -86, y: 15.5}
+        - {x: 86, y: 15.5}
+        - {x: -86, y: -15.5}
+      - - {x: -86, y: -15.5}
+        - {x: 86, y: 15.5}
+        - {x: 86, y: -15.5}
+      physicsShape:
+      - - {x: 85.99999, y: 6.5}
+        - {x: 85.99999, y: 15.5}
+        - {x: 83, y: 15.5}
+        - {x: 30, y: 6.5}
+        - {x: 7, y: 5.5}
+        - {x: -25, y: 6.5}
+        - {x: -57, y: 10.5}
+        - {x: -77, y: 15.5}
+        - {x: -85.99999, y: 15.5}
+        - {x: -85.99999, y: 1.5}
+        - {x: -79.99999, y: -6.5}
+        - {x: -77, y: -8.5}
+        - {x: -58, y: -12.5}
+        - {x: -37, y: -15.5}
+        - {x: 45, y: -15.5}
+        - {x: 74, y: -10.5}
+        - {x: 79.99999, y: -9.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarrelAcidDebris_4
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 330
+        width: 163
+        height: 165
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -81.5, y: -22.5}
+        - {x: -81.5, y: 11.5}
+        - {x: -8.5, y: -82.5}
+      - - {x: -11.5, y: 82.5}
+        - {x: -8.5, y: -82.5}
+        - {x: -81.5, y: 11.5}
+      - - {x: 24.5, y: 82.5}
+        - {x: -8.5, y: -82.5}
+        - {x: -11.5, y: 82.5}
+      - - {x: 25.5, y: -82.5}
+        - {x: -8.5, y: -82.5}
+        - {x: 24.5, y: 82.5}
+      - - {x: 81.5, y: 11.5}
+        - {x: 25.5, y: -82.5}
+        - {x: 24.5, y: 82.5}
+      - - {x: 81.5, y: -29.5}
+        - {x: 25.5, y: -82.5}
+        - {x: 81.5, y: 11.5}
+      physicsShape:
+      - - {x: 22.5, y: 82.5}
+        - {x: -15.5, y: 82.5}
+        - {x: -81.5, y: 9.5}
+        - {x: -81.5, y: -7.5}
+        - {x: -6.5, y: -79.49999}
+        - {x: 12.5, y: -79.49999}
+        - {x: 79.49999, y: -23.5}
+        - {x: 79.49999, y: 9.5}
+        - {x: 29.5, y: 81.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarrelAcidDebris_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 274
+        width: 33
+        height: 220
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: -86}
+        - {x: -16.5, y: 88}
+        - {x: 3.5, y: -110}
+      - - {x: 5.5, y: 110}
+        - {x: 3.5, y: -110}
+        - {x: -16.5, y: 88}
+      - - {x: 16.5, y: -110}
+        - {x: 3.5, y: -110}
+        - {x: 5.5, y: 110}
+      - - {x: 16.5, y: 110}
+        - {x: 16.5, y: -110}
+        - {x: 5.5, y: 110}
+      physicsShape:
+      - - {x: 4.5, y: -28}
+        - {x: 4.5, y: -12}
+        - {x: 12.5, y: 72}
+        - {x: 16.5, y: 101}
+        - {x: 16.5, y: 109}
+        - {x: 15.5, y: 110}
+        - {x: 12.5, y: 110}
+        - {x: 7.5, y: 107}
+        - {x: -1.5, y: 88}
+        - {x: -11.5, y: 59}
+        - {x: -13.5, y: 45}
+        - {x: -16.5, y: 23}
+        - {x: -16.5, y: -27}
+        - {x: -12.5, y: -51}
+        - {x: -7.5, y: -71}
+        - {x: -1.5, y: -88}
+        - {x: 7.5, y: -108}
+        - {x: 10.5, y: -110}
+        - {x: 14.5, y: -109}
+        - {x: 13.5, y: -96}
+        - {x: 8.5, y: -72}
+        - {x: 5.5, y: -44}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarrelAcidDebris_2
+      rect:
+        serializedVersion: 2
+        x: 181.0761
+        y: 264
+        width: 71.92388
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.03807, y: -20}
+        - {x: -36.03807, y: 120}
+        - {x: -31.03807, y: -120}
+      - - {x: 25.96193, y: 120}
+        - {x: -31.03807, y: -120}
+        - {x: -36.03807, y: 120}
+      - - {x: 32.96193, y: -120}
+        - {x: -31.03807, y: -120}
+        - {x: 25.96193, y: 120}
+      - - {x: 35.96193, y: 48}
+        - {x: 32.96193, y: -120}
+        - {x: 25.96193, y: 120}
+      - - {x: 35.96193, y: -114}
+        - {x: 32.96193, y: -120}
+        - {x: 35.96193, y: 48}
+      physicsShape:
+      - - {x: 35.96193, y: -16}
+        - {x: 29.96193, y: 49}
+        - {x: 22.96193, y: 114}
+        - {x: 20.96193, y: 117}
+        - {x: 4.961933, y: 120}
+        - {x: -31.03807, y: 120}
+        - {x: -34.03806, y: 119}
+        - {x: -34.03806, y: 14}
+        - {x: -32.03807, y: -1}
+        - {x: -30.03806, y: -78}
+        - {x: -27.03806, y: -111}
+        - {x: -26.03807, y: -119}
+        - {x: -25.03806, y: -120}
+        - {x: 5.961933, y: -120}
+        - {x: 21.96193, y: -119}
+        - {x: 32.96193, y: -113}
+        - {x: 35.96193, y: -85}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarrelAcidDebris_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 264
+        width: 85
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: -86}
+        - {x: -42.5, y: 47}
+        - {x: -36.5, y: -108}
+      - - {x: -36.5, y: 120}
+        - {x: -36.5, y: -108}
+        - {x: -42.5, y: 47}
+      - - {x: -32.5, y: -118}
+        - {x: -36.5, y: -108}
+        - {x: -36.5, y: 120}
+      - - {x: 41.5, y: 120}
+        - {x: -32.5, y: -118}
+        - {x: -36.5, y: 120}
+      - - {x: -13.5, y: -120}
+        - {x: -32.5, y: -118}
+        - {x: 41.5, y: 120}
+      - - {x: 42.5, y: -120}
+        - {x: -13.5, y: -120}
+        - {x: 41.5, y: 120}
+      - - {x: 42.5, y: 66}
+        - {x: 42.5, y: -120}
+        - {x: 41.5, y: 120}
+      physicsShape:
+      - - {x: 40.5, y: 6}
+        - {x: 36.5, y: 37}
+        - {x: 36.5, y: 79}
+        - {x: 37.5, y: 119}
+        - {x: 34.5, y: 120}
+        - {x: 14.5, y: 120}
+        - {x: -12.5, y: 117}
+        - {x: -30.5, y: 111}
+        - {x: -32.5, y: 103}
+        - {x: -42.5, y: 14}
+        - {x: -42.5, y: -46}
+        - {x: -38.5, y: -79.99999}
+        - {x: -33.5, y: -109}
+        - {x: -31.5, y: -111}
+        - {x: -15.5, y: -116}
+        - {x: 2.5, y: -120}
+        - {x: 42.5, y: -120}
+        - {x: 42.5, y: -75}
+        - {x: 39.5, y: -5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarrelAcidDebris_6
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 195
+        width: 157
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78.5, y: -16.5}
+        - {x: -78.5, y: 12.5}
+        - {x: -69.5, y: -22.5}
+      - - {x: -65.5, y: 22.5}
+        - {x: -69.5, y: -22.5}
+        - {x: -78.5, y: 12.5}
+      - - {x: 67.5, y: -22.5}
+        - {x: -69.5, y: -22.5}
+        - {x: -65.5, y: 22.5}
+      - - {x: 78.5, y: 22.5}
+        - {x: 67.5, y: -22.5}
+        - {x: -65.5, y: 22.5}
+      - - {x: 78.5, y: -20.5}
+        - {x: 67.5, y: -22.5}
+        - {x: 78.5, y: 22.5}
+      physicsShape:
+      - - {x: 75.5, y: 13.5}
+        - {x: 65.5, y: 18.5}
+        - {x: 36.5, y: 22.5}
+        - {x: -41.5, y: 22.5}
+        - {x: -65.5, y: 20.5}
+        - {x: -78.5, y: 11.5}
+        - {x: -78.5, y: -10.5}
+        - {x: -71.5, y: -16.5}
+        - {x: -60.5, y: -18.5}
+        - {x: -45.5, y: -22.5}
+        - {x: 45.5, y: -22.5}
+        - {x: 65.5, y: -20.5}
+        - {x: 78.5, y: -11.5}
+        - {x: 78.5, y: 10.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarrelAcidDebris_5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 196
+        width: 181
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -90.5, y: -14}
+        - {x: -90.5, y: 16}
+        - {x: -68.5, y: -16}
+      - - {x: 88.5, y: 16}
+        - {x: -68.5, y: -16}
+        - {x: -90.5, y: 16}
+      - - {x: 69.5, y: -16}
+        - {x: -68.5, y: -16}
+        - {x: 88.5, y: 16}
+      - - {x: 90.5, y: -10}
+        - {x: 69.5, y: -16}
+        - {x: 88.5, y: 16}
+      - - {x: 90.5, y: 11}
+        - {x: 90.5, y: -10}
+        - {x: 88.5, y: 16}
+      physicsShape:
+      - - {x: 88.5, y: -7}
+        - {x: 90.5, y: -6}
+        - {x: 90.5, y: 7}
+        - {x: 89.5, y: 12}
+        - {x: 87.5, y: 16}
+        - {x: 82.5, y: 16}
+        - {x: 44.5, y: 8}
+        - {x: 20.5, y: 6}
+        - {x: -15.5, y: 5}
+        - {x: -16.5, y: 6}
+        - {x: -47.5, y: 9}
+        - {x: -75.5, y: 16}
+        - {x: -87.5, y: 16}
+        - {x: -90.5, y: 9.999999}
+        - {x: -90.5, y: -6}
+        - {x: -63.5, y: -13}
+        - {x: -34.5, y: -16}
+        - {x: 38.5, y: -16}
+        - {x: 61.5, y: -14}
+        - {x: 77.5, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarrelAcidDebris_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 140
+        width: 193
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96.5, y: -10.5}
+        - {x: -96.5, y: 17.5}
+        - {x: -68.5, y: -17.5}
+      - - {x: 96.5, y: 17.5}
+        - {x: -68.5, y: -17.5}
+        - {x: -96.5, y: 17.5}
+      - - {x: 68.5, y: -17.5}
+        - {x: -68.5, y: -17.5}
+        - {x: 96.5, y: 17.5}
+      - - {x: 96.5, y: -11.5}
+        - {x: 68.5, y: -17.5}
+        - {x: 96.5, y: 17.5}
+      physicsShape:
+      - - {x: 96.5, y: -7.5}
+        - {x: 96.5, y: 16.5}
+        - {x: 91.5, y: 16.5}
+        - {x: 51.5, y: 9.5}
+        - {x: 30.5, y: 7.5}
+        - {x: 30.5, y: 5.5}
+        - {x: -25.5, y: 6.5}
+        - {x: -53.5, y: 9.5}
+        - {x: -89.5, y: 17.5}
+        - {x: -96.5, y: 17.5}
+        - {x: -96.5, y: -6.5}
+        - {x: -94.5, y: -8.5}
+        - {x: -56.5, y: -16.5}
+        - {x: -42.5, y: -17.5}
+        - {x: 47.5, y: -17.5}
+        - {x: 80.5, y: -13.5}
+        - {x: 92.49999, y: -9.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarrelAcidDebris_3
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 266
+        width: 48
+        height: 228
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 21}
+        - {x: -24, y: 114}
+        - {x: -19, y: -114}
+      - - {x: -2, y: 114}
+        - {x: -19, y: -114}
+        - {x: -24, y: 114}
+      - - {x: 1, y: -114}
+        - {x: -19, y: -114}
+        - {x: -2, y: 114}
+      - - {x: 15, y: 75}
+        - {x: 1, y: -114}
+        - {x: -2, y: 114}
+      - - {x: 13, y: -84}
+        - {x: 1, y: -114}
+        - {x: 15, y: 75}
+      - - {x: 21, y: -60}
+        - {x: 13, y: -84}
+        - {x: 15, y: 75}
+      - - {x: 23, y: 48}
+        - {x: 21, y: -60}
+        - {x: 15, y: 75}
+      - - {x: 24, y: -37}
+        - {x: 21, y: -60}
+        - {x: 23, y: 48}
+      - - {x: 24, y: 34}
+        - {x: 24, y: -37}
+        - {x: 23, y: 48}
+      physicsShape:
+      - - {x: 22, y: -36}
+        - {x: 23, y: -28}
+        - {x: 24, y: -22}
+        - {x: 24, y: 26}
+        - {x: 20, y: 46}
+        - {x: 16, y: 68}
+        - {x: 6, y: 95}
+        - {x: -3, y: 109}
+        - {x: -15, y: 113}
+        - {x: -22, y: 114}
+        - {x: -24, y: 112}
+        - {x: -24, y: 104}
+        - {x: -16, y: 17}
+        - {x: -14, y: -7}
+        - {x: -12, y: -29}
+        - {x: -9.999999, y: -62}
+        - {x: -11, y: -63}
+        - {x: -14, y: -97}
+        - {x: -15, y: -114}
+        - {x: -6, y: -114}
+        - {x: -1, y: -112}
+        - {x: 8, y: -91.99999}
+        - {x: 14, y: -72.99999}
+        - {x: 19, y: -54}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BarrelAcidDebris_6: 21300012
+      BarrelAcidDebris_5: 21300010
+      BarrelAcidDebris_3: 21300006
+      BarrelAcidDebris_7: 21300014
+      BarrelAcidDebris_0: 21300000
+      BarrelAcidDebris_8: 21300016
+      BarrelAcidDebris_4: 21300008
+      BarrelAcidDebris_1: 21300002
+      BarrelAcidDebris_2: 21300004
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,255 @@
+{
+    "noAdsBuyState": 0,
+    "playerMoney": 0.0,
+    "playerAimingEnabled": 0,
+    "playerControlHand": 0,
+    "playerNotifications": 1,
+    "catapults": {
+        "selectedCatapult": 0,
+        "catapultsProgress": []
+    },
+    "helmets": {
+        "selectedHelmet": 999,
+        "helmetsProgress": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "shields": {
+        "selectedShield": 999,
+        "shieldsProgress": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "projectiles": {
+        "selectedProjectiles": [
+            0,
+            0
+        ],
+        "projectilesCount": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "achievements": [
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 1,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 2,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        },
+        {
+            "achievementProgress": 0,
+            "isAchieved": 0,
+            "repeatCount": 0
+        }
+    ],
+    "newCatapults": {
+        "selectedCatapult": 0,
+        "canBuyCatapult": [
+            1,
+            0,
+            0
+        ],
+        "isCatapultBought": [
+            1,
+            0,
+            0
+        ],
+        "catapultUpgrade": [
+            0,
+            0,
+            0
+        ]
+    }
+}

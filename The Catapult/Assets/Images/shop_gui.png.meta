@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: 928700f8b40e44bba1e8ce7cb5f1ea14
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: shop_gui_6
+  - first:
+      213: 21300002
+    second: shop_gui_0
+  - first:
+      213: 21300004
+    second: shop_gui_4
+  - first:
+      213: 21300006
+    second: shop_gui_5
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 32, y: 32, z: 32, w: 32}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shop_gui_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 379
+        width: 217
+        height: 218
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108.5, y: -103}
+        - {x: -108.5, y: 109}
+        - {x: -103.5, y: -109}
+      - - {x: 108.5, y: 109}
+        - {x: -103.5, y: -109}
+        - {x: -108.5, y: 109}
+      - - {x: 107.5, y: -109}
+        - {x: -103.5, y: -109}
+        - {x: 108.5, y: 109}
+      - - {x: 108.5, y: -108}
+        - {x: 107.5, y: -109}
+        - {x: 108.5, y: 109}
+      physicsShape:
+      - - {x: -108.5, y: 109}
+        - {x: -108.5, y: -109}
+        - {x: 108.5, y: -109}
+        - {x: 108.5, y: 109}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shop_gui_6
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 212
+        width: 163.9239
+        height: 162
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 32, y: 32, z: 32, w: 32}
+      outline:
+      - - {x: -81.96194, y: -74}
+        - {x: -81.96194, y: 81}
+        - {x: -72.96194, y: -81}
+      - - {x: 76.03806, y: 81}
+        - {x: -72.96194, y: -81}
+        - {x: -81.96194, y: 81}
+      - - {x: 82.03806, y: -81}
+        - {x: -72.96194, y: -81}
+        - {x: 76.03806, y: 81}
+      - - {x: 82.03806, y: 78}
+        - {x: 82.03806, y: -81}
+        - {x: 76.03806, y: 81}
+      physicsShape:
+      - - {x: 67.03806, y: 81}
+        - {x: -61.96194, y: 81}
+        - {x: -69.96194, y: 77}
+        - {x: -75.96194, y: 68}
+        - {x: -81.96194, y: 55}
+        - {x: -81.96194, y: -62}
+        - {x: -69.96194, y: -81}
+        - {x: 62.03806, y: -81}
+        - {x: 68.03806, y: -77}
+        - {x: 82.03806, y: -59}
+        - {x: 82.03806, y: 60}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shop_gui_5
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 174
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 32, y: 32, z: 32, w: 32}
+      outline:
+      - - {x: -64, y: -64}
+        - {x: -64, y: 57}
+        - {x: 64, y: -64}
+      - - {x: -56, y: 64}
+        - {x: 64, y: -64}
+        - {x: -64, y: 57}
+      - - {x: 57, y: 64}
+        - {x: 64, y: -64}
+        - {x: -56, y: 64}
+      - - {x: 64, y: 56}
+        - {x: 64, y: -64}
+        - {x: 57, y: 64}
+      physicsShape:
+      - - {x: -60, y: 64}
+        - {x: -64, y: 57}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shop_gui_4
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 174
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 32, y: 32, z: 32, w: 32}
+      outline:
+      - - {x: -64, y: -64}
+        - {x: -64, y: 57}
+        - {x: 64, y: -64}
+      - - {x: -56, y: 64}
+        - {x: 64, y: -64}
+        - {x: -64, y: 57}
+      - - {x: 57, y: 64}
+        - {x: 64, y: -64}
+        - {x: -56, y: 64}
+      - - {x: 64, y: 56}
+        - {x: 64, y: -64}
+        - {x: 57, y: 64}
+      physicsShape:
+      - - {x: -60, y: 64}
+        - {x: -64, y: 57}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      shop_gui_4: 21300004
+      shop_gui_0: 21300002
+      shop_gui_5: 21300006
+      shop_gui_6: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,697 @@
+fileFormatVersion: 2
+guid: f86471be25f7408d8f71881c32f182cd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: gold_atlas_0
+  - first:
+      213: 21300002
+    second: gold_atlas_1
+  - first:
+      213: 21300004
+    second: gold_atlas_2
+  - first:
+      213: 21300006
+    second: gold_atlas_4
+  - first:
+      213: 21300008
+    second: gold_atlas_5
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gold_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 167
+        width: 293
+        height: 322
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 132.5, y: 51}
+        - {x: 134.5, y: 53}
+        - {x: 133.5, y: 48}
+      - - {x: 136.5, y: 48}
+        - {x: 133.5, y: 48}
+        - {x: 134.5, y: 53}
+      - - {x: 137.5, y: 53}
+        - {x: 136.5, y: 48}
+        - {x: 134.5, y: 53}
+      - - {x: 138.5, y: 50}
+        - {x: 136.5, y: 48}
+        - {x: 137.5, y: 53}
+      - - {x: 133.5, y: -59}
+        - {x: 135.5, y: -57}
+        - {x: 135.5, y: -62}
+      - - {x: 138.5, y: -61}
+        - {x: 135.5, y: -62}
+        - {x: 135.5, y: -57}
+      - - {x: 138.5, y: -58}
+        - {x: 138.5, y: -61}
+        - {x: 135.5, y: -57}
+      - - {x: 132.5, y: 51}
+        - {x: 133.5, y: -59}
+        - {x: 132.5, y: -109}
+      - - {x: 134.5, y: -107}
+        - {x: 132.5, y: -109}
+        - {x: 133.5, y: -59}
+      - - {x: 134.5, y: -83}
+        - {x: 134.5, y: -107}
+        - {x: 133.5, y: -59}
+      - - {x: 135.5, y: -62}
+        - {x: 134.5, y: -83}
+        - {x: 133.5, y: -59}
+      - - {x: 136.5, y: -81}
+        - {x: 134.5, y: -83}
+        - {x: 135.5, y: -62}
+      - - {x: 138.5, y: -61}
+        - {x: 136.5, y: -81}
+        - {x: 135.5, y: -62}
+      - - {x: 139.5, y: -81}
+        - {x: 136.5, y: -81}
+        - {x: 138.5, y: -61}
+      - - {x: 138.5, y: -58}
+        - {x: 139.5, y: -81}
+        - {x: 138.5, y: -61}
+      - - {x: 138.5, y: 50}
+        - {x: 139.5, y: -81}
+        - {x: 138.5, y: -58}
+      - - {x: 132.5, y: -109}
+        - {x: 134.5, y: -112}
+        - {x: 102.5, y: -161}
+      - - {x: 146.5, y: -122}
+        - {x: 102.5, y: -161}
+        - {x: 134.5, y: -112}
+      - - {x: 137.5, y: -111}
+        - {x: 146.5, y: -122}
+        - {x: 134.5, y: -112}
+      - - {x: 137.5, y: -108}
+        - {x: 146.5, y: -122}
+        - {x: 137.5, y: -111}
+      - - {x: 138.5, y: -86}
+        - {x: 146.5, y: -122}
+        - {x: 137.5, y: -108}
+      - - {x: 140.5, y: -84}
+        - {x: 146.5, y: -122}
+        - {x: 138.5, y: -86}
+      - - {x: -146.5, y: -138}
+        - {x: -146.5, y: 120}
+        - {x: -121.5, y: -161}
+      - - {x: -77.5, y: 161}
+        - {x: -121.5, y: -161}
+        - {x: -146.5, y: 120}
+      - - {x: 102.5, y: -161}
+        - {x: -121.5, y: -161}
+        - {x: -77.5, y: 161}
+      - - {x: 98.5, y: 161}
+        - {x: 102.5, y: -161}
+        - {x: -77.5, y: 161}
+      - - {x: 132.5, y: 51}
+        - {x: 102.5, y: -161}
+        - {x: 98.5, y: 161}
+      - - {x: 146.5, y: 129}
+        - {x: 132.5, y: 51}
+        - {x: 98.5, y: 161}
+      - - {x: 132.5, y: -109}
+        - {x: 102.5, y: -161}
+        - {x: 132.5, y: 51}
+      - - {x: 134.5, y: 53}
+        - {x: 132.5, y: 51}
+        - {x: 146.5, y: 129}
+      - - {x: 137.5, y: 53}
+        - {x: 134.5, y: 53}
+        - {x: 146.5, y: 129}
+      - - {x: 138.5, y: 50}
+        - {x: 137.5, y: 53}
+        - {x: 146.5, y: 129}
+      - - {x: 139.5, y: -81}
+        - {x: 138.5, y: 50}
+        - {x: 146.5, y: 129}
+      - - {x: 140.5, y: -84}
+        - {x: 139.5, y: -81}
+        - {x: 146.5, y: 129}
+      - - {x: 146.5, y: -122}
+        - {x: 140.5, y: -84}
+        - {x: 146.5, y: 129}
+      - - {x: 132.5, y: 51}
+        - {x: 133.5, y: 48}
+        - {x: 133.5, y: -59}
+      - - {x: 135.5, y: -57}
+        - {x: 133.5, y: -59}
+        - {x: 133.5, y: 48}
+      - - {x: 136.5, y: 48}
+        - {x: 135.5, y: -57}
+        - {x: 133.5, y: 48}
+      - - {x: 138.5, y: -58}
+        - {x: 135.5, y: -57}
+        - {x: 136.5, y: 48}
+      - - {x: 138.5, y: 50}
+        - {x: 138.5, y: -58}
+        - {x: 136.5, y: 48}
+      - - {x: 134.5, y: -107}
+        - {x: 134.5, y: -83}
+        - {x: 137.5, y: -108}
+      - - {x: 135.5, y: -86}
+        - {x: 137.5, y: -108}
+        - {x: 134.5, y: -83}
+      - - {x: 138.5, y: -86}
+        - {x: 137.5, y: -108}
+        - {x: 135.5, y: -86}
+      - - {x: 134.5, y: -83}
+        - {x: 136.5, y: -81}
+        - {x: 135.5, y: -86}
+      - - {x: 138.5, y: -86}
+        - {x: 135.5, y: -86}
+        - {x: 136.5, y: -81}
+      - - {x: 139.5, y: -81}
+        - {x: 138.5, y: -86}
+        - {x: 136.5, y: -81}
+      - - {x: 140.5, y: -84}
+        - {x: 138.5, y: -86}
+        - {x: 139.5, y: -81}
+      - - {x: 132.5, y: -109}
+        - {x: 134.5, y: -107}
+        - {x: 134.5, y: -112}
+      - - {x: 137.5, y: -111}
+        - {x: 134.5, y: -112}
+        - {x: 134.5, y: -107}
+      - - {x: 137.5, y: -108}
+        - {x: 137.5, y: -111}
+        - {x: 134.5, y: -107}
+      physicsShape:
+      - - {x: 37.5, y: -113}
+        - {x: 61.5, y: -123}
+        - {x: 96.5, y: -121}
+        - {x: 115.5, y: -111}
+        - {x: 123.5, y: -104}
+        - {x: 129.5, y: -94}
+        - {x: 132.5, y: -66.99999}
+        - {x: 146.5, y: -23}
+        - {x: 146.5, y: 8}
+        - {x: 140.5, y: 32}
+        - {x: 128.5, y: 48}
+        - {x: 128.5, y: 57}
+        - {x: 130.5, y: 72.99999}
+        - {x: 129.5, y: 91.99999}
+        - {x: 116.5, y: 107}
+        - {x: 107.5, y: 110}
+        - {x: 94.5, y: 135}
+        - {x: 89.5, y: 142}
+        - {x: 81.5, y: 149}
+        - {x: 76.5, y: 153}
+        - {x: 65.5, y: 159}
+        - {x: 55.5, y: 161}
+        - {x: 21.5, y: 161}
+        - {x: 10.5, y: 158}
+        - {x: -1.5, y: 142}
+        - {x: -4.5, y: 128}
+        - {x: -15.5, y: 131}
+        - {x: -42.5, y: 129}
+        - {x: -52.5, y: 126}
+        - {x: -70.5, y: 119}
+        - {x: -81.5, y: 120}
+        - {x: -99.5, y: 120}
+        - {x: -111.5, y: 119}
+        - {x: -132.5, y: 111}
+        - {x: -141.5, y: 98.99999}
+        - {x: -145.5, y: 91}
+        - {x: -146.5, y: 79}
+        - {x: -146.5, y: 24}
+        - {x: -144.5, y: -9}
+        - {x: -137.5, y: -34}
+        - {x: -138.5, y: -85}
+        - {x: -125.5, y: -101}
+        - {x: -111.5, y: -106}
+        - {x: -88.5, y: -109}
+        - {x: -88.5, y: -138}
+        - {x: -84.5, y: -145}
+        - {x: -72.5, y: -155}
+        - {x: -56.5, y: -161}
+        - {x: -17.5, y: -161}
+        - {x: -2.5, y: -159}
+        - {x: 17.5, y: -142}
+        - {x: 28.5, y: -114}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 211
+        width: 282
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -141, y: -26}
+        - {x: -34, y: -94}
+        - {x: -141, y: -107}
+      - - {x: 141, y: -107}
+        - {x: -141, y: -107}
+        - {x: -34, y: -94}
+      - - {x: -36, y: -91}
+        - {x: -34, y: -94}
+        - {x: -141, y: -26}
+      - - {x: -60, y: 107}
+        - {x: -36, y: -91}
+        - {x: -141, y: -26}
+      - - {x: -31, y: -93}
+        - {x: 141, y: -107}
+        - {x: -34, y: -94}
+      - - {x: -31, y: -90}
+        - {x: 141, y: -107}
+        - {x: -31, y: -93}
+      - - {x: 118, y: 107}
+        - {x: 141, y: -107}
+        - {x: -31, y: -90}
+      - - {x: 136, y: -25}
+        - {x: 141, y: -107}
+        - {x: 118, y: 107}
+      - - {x: 137, y: -28}
+        - {x: 141, y: -107}
+        - {x: 136, y: -25}
+      - - {x: 140, y: -28}
+        - {x: 141, y: -107}
+        - {x: 137, y: -28}
+      - - {x: 141, y: -27}
+        - {x: 141, y: -107}
+        - {x: 140, y: -28}
+      - - {x: 136, y: -25}
+        - {x: 138, y: -23}
+        - {x: 137, y: -28}
+      - - {x: 140, y: -28}
+        - {x: 137, y: -28}
+        - {x: 138, y: -23}
+      - - {x: 141, y: -23}
+        - {x: 140, y: -28}
+        - {x: 138, y: -23}
+      - - {x: 141, y: -27}
+        - {x: 140, y: -28}
+        - {x: 141, y: -23}
+      - - {x: 118, y: 107}
+        - {x: 141, y: 40}
+        - {x: 136, y: -25}
+      - - {x: 138, y: -23}
+        - {x: 136, y: -25}
+        - {x: 141, y: 40}
+      - - {x: 141, y: -23}
+        - {x: 138, y: -23}
+        - {x: 141, y: 40}
+      - - {x: -36, y: -91}
+        - {x: -34, y: -89}
+        - {x: -34, y: -94}
+      - - {x: -31, y: -93}
+        - {x: -34, y: -94}
+        - {x: -34, y: -89}
+      - - {x: -31, y: -90}
+        - {x: -31, y: -93}
+        - {x: -34, y: -89}
+      - - {x: -60, y: 107}
+        - {x: 118, y: 107}
+        - {x: -36, y: -91}
+      - - {x: -34, y: -89}
+        - {x: -36, y: -91}
+        - {x: 118, y: 107}
+      - - {x: -31, y: -90}
+        - {x: -34, y: -89}
+        - {x: 118, y: 107}
+      physicsShape:
+      - - {x: -41, y: -81}
+        - {x: -42, y: -54}
+        - {x: -34, y: -55}
+        - {x: -24, y: -70}
+        - {x: -1, y: -78}
+        - {x: 7, y: -79.99999}
+        - {x: 39, y: -77}
+        - {x: 49, y: -91}
+        - {x: 65, y: -97}
+        - {x: 89, y: -100}
+        - {x: 112, y: -97}
+        - {x: 126, y: -90}
+        - {x: 133, y: -87}
+        - {x: 141, y: -75}
+        - {x: 141, y: -42}
+        - {x: 140, y: -38}
+        - {x: 130, y: -29}
+        - {x: 134, y: -9.999999}
+        - {x: 133, y: 12}
+        - {x: 131, y: 20}
+        - {x: 107, y: 38}
+        - {x: 94, y: 64}
+        - {x: 82, y: 75}
+        - {x: 64, y: 84}
+        - {x: 41, y: 87}
+        - {x: 26, y: 106}
+        - {x: 24, y: 107}
+        - {x: -8, y: 107}
+        - {x: -27, y: 94}
+        - {x: -41, y: 79.99999}
+        - {x: -51, y: 66.99999}
+        - {x: -51, y: 50}
+        - {x: -65, y: 39}
+        - {x: -74, y: 30}
+        - {x: -81, y: 11}
+        - {x: -93, y: -4}
+        - {x: -89, y: -30}
+        - {x: -108, y: -33}
+        - {x: -133, y: -44}
+        - {x: -141, y: -57}
+        - {x: -141, y: -82}
+        - {x: -139, y: -91}
+        - {x: -132, y: -98.99999}
+        - {x: -122, y: -105}
+        - {x: -114, y: -107}
+        - {x: -81, y: -107}
+        - {x: -69, y: -105}
+        - {x: -60, y: -101}
+        - {x: -45, y: -87}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 735
+        width: 166
+        height: 171
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -83, y: -72.5}
+        - {x: -83, y: 52.5}
+        - {x: -68, y: -85.5}
+      - - {x: -50, y: 85.5}
+        - {x: -68, y: -85.5}
+        - {x: -83, y: 52.5}
+      - - {x: 83, y: -85.5}
+        - {x: -68, y: -85.5}
+        - {x: -50, y: 85.5}
+      - - {x: 37, y: 85.5}
+        - {x: 83, y: -85.5}
+        - {x: -50, y: 85.5}
+      - - {x: 40, y: 84.5}
+        - {x: 83, y: -85.5}
+        - {x: 37, y: 85.5}
+      - - {x: 83, y: 33.5}
+        - {x: 83, y: -85.5}
+        - {x: 40, y: 84.5}
+      physicsShape:
+      - - {x: 79.99999, y: -34.5}
+        - {x: 77, y: -27.5}
+        - {x: 83, y: -14.5}
+        - {x: 83, y: 15.5}
+        - {x: 75, y: 28.5}
+        - {x: 44, y: 42.5}
+        - {x: 44, y: 62.5}
+        - {x: 34, y: 76.5}
+        - {x: 26, y: 81.5}
+        - {x: 9.999999, y: 85.49999}
+        - {x: -21, y: 85.49999}
+        - {x: -35, y: 82.5}
+        - {x: -54, y: 67.5}
+        - {x: -57, y: 58.5}
+        - {x: -65, y: 38.5}
+        - {x: -71, y: 32.5}
+        - {x: -70, y: 6.5}
+        - {x: -83, y: -14.5}
+        - {x: -83, y: -34.5}
+        - {x: -78, y: -49.5}
+        - {x: -71, y: -57.5}
+        - {x: -56, y: -63.5}
+        - {x: -41, y: -63.5}
+        - {x: -20, y: -64.5}
+        - {x: -12, y: -75.5}
+        - {x: 0, y: -82.5}
+        - {x: 9.999999, y: -85.49999}
+        - {x: 47, y: -85.49999}
+        - {x: 56, y: -83.5}
+        - {x: 76, y: -68.5}
+        - {x: 79.99999, y: -61.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 760
+        width: 172
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -86, y: -33}
+        - {x: -86, y: 34}
+        - {x: -83, y: -42}
+      - - {x: -79, y: 42}
+        - {x: -83, y: -42}
+        - {x: -86, y: 34}
+      - - {x: 86, y: -42}
+        - {x: -83, y: -42}
+        - {x: -79, y: 42}
+      - - {x: 86, y: 42}
+        - {x: 86, y: -42}
+        - {x: -79, y: 42}
+      physicsShape:
+      - - {x: 16, y: -40}
+        - {x: 28, y: -42}
+        - {x: 52, y: -42}
+        - {x: 66.99999, y: -38}
+        - {x: 77, y: -32}
+        - {x: 85.99999, y: -20}
+        - {x: 85.99999, y: 9.999999}
+        - {x: 84, y: 17}
+        - {x: 72.99999, y: 24}
+        - {x: 58, y: 33}
+        - {x: 24, y: 36}
+        - {x: 5, y: 30}
+        - {x: -2, y: 40}
+        - {x: -13, y: 41}
+        - {x: -41, y: 41}
+        - {x: -54, y: 36}
+        - {x: -63, y: 30}
+        - {x: -69, y: 25}
+        - {x: -83, y: 11}
+        - {x: -85.99999, y: 5}
+        - {x: -85.99999, y: -16}
+        - {x: -79.99999, y: -31}
+        - {x: -66.99999, y: -41}
+        - {x: -57, y: -42}
+        - {x: -47, y: -42}
+        - {x: -37, y: -40}
+        - {x: -24, y: -37}
+        - {x: -11, y: -29}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 734
+        width: 173
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -86.5, y: -35.5}
+        - {x: -86.5, y: 23.5}
+        - {x: -79.5, y: -47.5}
+      - - {x: -78.5, y: 59.5}
+        - {x: -79.5, y: -47.5}
+        - {x: -86.5, y: 23.5}
+      - - {x: -11.5, y: -69.5}
+        - {x: -79.5, y: -47.5}
+        - {x: -78.5, y: 59.5}
+      - - {x: -37.5, y: 69.5}
+        - {x: -11.5, y: -69.5}
+        - {x: -78.5, y: 59.5}
+      - - {x: 29.5, y: 69.5}
+        - {x: -11.5, y: -69.5}
+        - {x: -37.5, y: 69.5}
+      - - {x: 57.5, y: -69.5}
+        - {x: -11.5, y: -69.5}
+        - {x: 29.5, y: 69.5}
+      - - {x: 86.5, y: 26.5}
+        - {x: 57.5, y: -69.5}
+        - {x: 29.5, y: 69.5}
+      - - {x: 86.5, y: -38.5}
+        - {x: 57.5, y: -69.5}
+        - {x: 86.5, y: 26.5}
+      physicsShape:
+      - - {x: 78.5, y: -33.5}
+        - {x: 86.5, y: -21.5}
+        - {x: 86.5, y: 10.5}
+        - {x: 77.5, y: 22.5}
+        - {x: 54.5, y: 31.5}
+        - {x: 32.5, y: 37.5}
+        - {x: 26.5, y: 57.5}
+        - {x: 13.5, y: 69.5}
+        - {x: -21.5, y: 69.5}
+        - {x: -40.5, y: 62.5}
+        - {x: -53.5, y: 55.5}
+        - {x: -69.5, y: 32.5}
+        - {x: -82.5, y: 9.5}
+        - {x: -86.5, y: 1.5}
+        - {x: -86.5, y: -14.5}
+        - {x: -79.49999, y: -32.5}
+        - {x: -73.49999, y: -39.5}
+        - {x: -55.5, y: -45.5}
+        - {x: -32.5, y: -44.5}
+        - {x: -22.5, y: -54.5}
+        - {x: -7.5, y: -64.5}
+        - {x: 7.5, y: -69.5}
+        - {x: 37.5, y: -69.5}
+        - {x: 46.5, y: -65.5}
+        - {x: 54.5, y: -58.5}
+        - {x: 60.5, y: -41.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      gold_atlas_1: 21300002
+      gold_atlas_5: 21300008
+      gold_atlas_0: 21300000
+      gold_atlas_2: 21300004
+      gold_atlas_4: 21300006
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

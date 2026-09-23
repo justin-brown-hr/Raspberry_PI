@@ -1,0 +1,363 @@
+fileFormatVersion: 2
+guid: 870cbe8d1fed44d3b0981ed284ad8417
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: helepolis_3_1_0
+  - first:
+      213: 21300002
+    second: helepolis_3_1_1
+  - first:
+      213: 21300004
+    second: helepolis_3_1_2
+  - first:
+      213: 21300006
+    second: helepolis_3_1_3
+  - first:
+      213: 21300008
+    second: helepolis_3_1_4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: helepolis_3_1_4
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 270
+        width: 252
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -126, y: -18.5}
+        - {x: -126, y: 13.5}
+        - {x: 126, y: -18.5}
+      - - {x: -120, y: 18.5}
+        - {x: 126, y: -18.5}
+        - {x: -126, y: 13.5}
+      - - {x: -47, y: 18.5}
+        - {x: 126, y: -18.5}
+        - {x: -120, y: 18.5}
+      - - {x: 126, y: 7.5}
+        - {x: 126, y: -18.5}
+        - {x: -47, y: 18.5}
+      physicsShape:
+      - - {x: -98.3705, y: 6.447906}
+        - {x: -98.99999, y: 18.5}
+        - {x: -114, y: 18.5}
+        - {x: -126, y: 10.5}
+        - {x: -126, y: -18.5}
+        - {x: 117, y: -18.5}
+        - {x: 126, y: -12.5}
+        - {x: 126, y: -1.5}
+        - {x: 124, y: 2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helepolis_3_1_1
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 416
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 13}
+        - {x: 5, y: 13}
+        - {x: -5, y: -13}
+      - - {x: -5, y: -13}
+        - {x: 5, y: 13}
+        - {x: 5, y: -13}
+      physicsShape:
+      - - {x: 3, y: 13}
+        - {x: -1, y: 13}
+        - {x: -5, y: 7}
+        - {x: -5, y: -13}
+        - {x: 5, y: -13}
+        - {x: 5, y: 9.999999}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helepolis_3_1_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 327
+        width: 290
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -145, y: 12.5}
+        - {x: -145, y: 19.5}
+        - {x: -127, y: -22.5}
+      - - {x: -131, y: 22.5}
+        - {x: -127, y: -22.5}
+        - {x: -145, y: 19.5}
+      - - {x: 112, y: 22.5}
+        - {x: -127, y: -22.5}
+        - {x: -131, y: 22.5}
+      - - {x: -70, y: -22.5}
+        - {x: -127, y: -22.5}
+        - {x: 112, y: 22.5}
+      - - {x: 114, y: -0.5}
+        - {x: -70, y: -22.5}
+        - {x: 112, y: 22.5}
+      - - {x: 124, y: 15.5}
+        - {x: 114, y: -0.5}
+        - {x: 112, y: 22.5}
+      - - {x: 145, y: 4.5}
+        - {x: 114, y: -0.5}
+        - {x: 124, y: 15.5}
+      - - {x: 144, y: 11.5}
+        - {x: 145, y: 4.5}
+        - {x: 124, y: 15.5}
+      - - {x: 145, y: 10.5}
+        - {x: 145, y: 4.5}
+        - {x: 144, y: 11.5}
+      physicsShape:
+      - - {x: -124, y: 22.5}
+        - {x: -145, y: 18.5}
+        - {x: -126.9773, y: -0.4179687}
+        - {x: -125.4625, y: -22.5}
+        - {x: -98.92654, y: -22.5}
+        - {x: -84.17518, y: 0.9689331}
+        - {x: 145, y: 3.5}
+        - {x: 145, y: 10.5}
+        - {x: 122, y: 22.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helepolis_3_1_2
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 402
+        width: 49
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 10}
+        - {x: -24.5, y: 52}
+        - {x: -5.5, y: -52}
+      - - {x: 15.5, y: 52}
+        - {x: -5.5, y: -52}
+        - {x: -24.5, y: 52}
+      - - {x: 24.5, y: -52}
+        - {x: -5.5, y: -52}
+        - {x: 15.5, y: 52}
+      - - {x: 24.5, y: 12}
+        - {x: 24.5, y: -52}
+        - {x: 15.5, y: 52}
+      physicsShape:
+      - - {x: 17.5, y: 34}
+        - {x: 7.5, y: 52}
+        - {x: -24.5, y: 52}
+        - {x: -24.5, y: 27}
+        - {x: -23.5, y: 19}
+        - {x: -8.5, y: -45}
+        - {x: -4.5, y: -52}
+        - {x: 24.5, y: -52}
+        - {x: 24.5, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helepolis_3_1_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 398
+        width: 200
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100, y: -55}
+        - {x: -100, y: -15}
+        - {x: 100, y: -55}
+      - - {x: -68, y: 55}
+        - {x: 100, y: -55}
+        - {x: -100, y: -15}
+      - - {x: -42, y: 55}
+        - {x: 100, y: -55}
+        - {x: -68, y: 55}
+      - - {x: 44, y: 10}
+        - {x: 100, y: -55}
+        - {x: -42, y: 55}
+      - - {x: 98, y: -27}
+        - {x: 100, y: -55}
+        - {x: 44, y: 10}
+      - - {x: 100, y: -29}
+        - {x: 100, y: -55}
+        - {x: 98, y: -27}
+      physicsShape:
+      - - {x: -28.65919, y: -0.93573}
+        - {x: 14.34349, y: -9.84259}
+        - {x: 10.57219, y: -54.71478}
+        - {x: 36.99896, y: -55}
+        - {x: 40.23907, y: -13.96347}
+        - {x: 75.26472, y: -41.04202}
+        - {x: 100, y: -44.13437}
+        - {x: 100, y: -29}
+        - {x: 41, y: 9}
+        - {x: -20.091, y: 23.58258}
+        - {x: -48, y: 55}
+        - {x: -62.29844, y: 52.64923}
+        - {x: -61.21254, y: 9.884796}
+        - {x: -100, y: -30}
+        - {x: -98.43282, y: -40.89529}
+        - {x: -75.36639, y: -40.11172}
+        - {x: -49.85859, y: -8.141418}
+        - {x: -49.55312, y: -55}
+        - {x: -25.38905, y: -55}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      helepolis_3_1_0: 21300000
+      helepolis_3_1_2: 21300004
+      helepolis_3_1_4: 21300008
+      helepolis_3_1_1: 21300002
+      helepolis_3_1_3: 21300006
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

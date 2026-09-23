@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01880497a43e68ac3c8220d9e9d9818, type: 3}
+  m_Name: "GA_Settings"
+  m_EditorClassIdentifier: 
+  accounts:
+  - Name: "The Catapult"
+    TrackingID: "UA-106802180-1"
+    IsOpen: 1
+  platfromBounds: []
+  showAdditionalParams: 1
+  showAdvancedParams: 1
+  showCParams: 1
+  showAccounts: 1
+  showPlatfroms: 1
+  showTestingMode: 1
+  AppName: "The Catapult"
+  AppVersion: "1.1.5-15"
+  UseHTTPS: 0
+  StringEscaping: 1
+  EditorAnalytics: 1
+  IsDisabled: 0
+  IsTestingModeEnabled: 0
+  TestingModeAccIndex: 0
+  IsRequetsCachingEnabled: 1
+  IsQueueTimeEnabled: 1
+  AutoLevelTracking: 1
+  LevelPrefix: "Level_"
+  LevelPostfix: 
+  AutoAppQuitTracking: 1
+  AutoCampaignTracking: 0
+  AutoExceptionTracking: 1
+  AutoAppResumeTracking: 1
+  SubmitSystemInfoOnFirstLaunch: 0
+  UsePlayerSettingsForAppInfo: 0
+  EnableFirebase: 0
+  FirebaseAppId: 

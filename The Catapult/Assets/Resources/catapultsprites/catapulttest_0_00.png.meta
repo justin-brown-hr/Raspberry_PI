@@ -1,0 +1,918 @@
+fileFormatVersion: 2
+guid: f9937ff630a3443ab972c3dd9451abb9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: catapulttest_0_00_0
+  - first:
+      213: 21300002
+    second: catapulttest_0_00_1
+  - first:
+      213: 21300004
+    second: catapulttest_0_00_2
+  - first:
+      213: 21300006
+    second: catapulttest_0_00_3
+  - first:
+      213: 21300008
+    second: catapulttest_0_00_4
+  - first:
+      213: 21300010
+    second: catapulttest_0_00_5
+  - first:
+      213: 21300012
+    second: catapulttest_0_00_6
+  - first:
+      213: 21300014
+    second: catapulttest_0_00_7
+  - first:
+      213: 21300016
+    second: catapulttest_0_00_8
+  - first:
+      213: 21300018
+    second: catapulttest_0_00_9
+  - first:
+      213: 21300020
+    second: catapulttest_0_00_10
+  - first:
+      213: 21300022
+    second: catapulttest_0_00_11
+  - first:
+      213: 21300024
+    second: catapulttest_0_00_12
+  - first:
+      213: 21300026
+    second: catapulttest_0_00_13
+  - first:
+      213: 21300028
+    second: catapulttest_0_00_14
+  - first:
+      213: 21300030
+    second: catapulttest_0_00_15
+  - first:
+      213: 21300032
+    second: catapulttest_0_00_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: catapulttest_0_00_4
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 347
+        width: 70
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: -17}
+        - {x: -35, y: 17}
+        - {x: 33, y: -17}
+      - - {x: 35, y: 17}
+        - {x: 33, y: -17}
+        - {x: -35, y: 17}
+      - - {x: 35, y: -9}
+        - {x: 33, y: -17}
+        - {x: 35, y: 17}
+      physicsShape:
+      - - {x: -35, y: 17}
+        - {x: -35, y: -17}
+        - {x: 32, y: -17}
+        - {x: 35, y: -12}
+        - {x: 35, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catapulttest_0_00_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 207
+        width: 37
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: -15.5}
+        - {x: -18.5, y: 53.5}
+        - {x: -13.5, y: -53.5}
+      - - {x: 17.5, y: 53.5}
+        - {x: -13.5, y: -53.5}
+        - {x: -18.5, y: 53.5}
+      - - {x: 18.5, y: -53.5}
+        - {x: -13.5, y: -53.5}
+        - {x: 17.5, y: 53.5}
+      - - {x: 18.5, y: 26.5}
+        - {x: 18.5, y: -53.5}
+        - {x: 17.5, y: 53.5}
+      physicsShape:
+      - - {x: -16.5, y: -53.5}
+        - {x: 18.5, y: -53.5}
+        - {x: 18.5, y: 53.5}
+        - {x: -18.5, y: 53.5}
+        - {x: -18.5, y: -9.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catapulttest_0_00_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 316
+        width: 246
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -123, y: 5}
+        - {x: 123, y: 5}
+        - {x: -123, y: -5}
+      - - {x: -123, y: -5}
+        - {x: 123, y: 5}
+        - {x: 123, y: -5}
+      physicsShape:
+      - - {x: -123, y: 5}
+        - {x: -123, y: -5}
+        - {x: 122, y: -5}
+        - {x: 123, y: -4}
+        - {x: 123, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catapulttest_0_00_8
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 304
+        width: 78
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: -10.5}
+        - {x: -39, y: 22.5}
+        - {x: -25, y: -22.5}
+      - - {x: 39, y: 22.5}
+        - {x: -25, y: -22.5}
+        - {x: -39, y: 22.5}
+      - - {x: 30, y: -22.5}
+        - {x: -25, y: -22.5}
+        - {x: 39, y: 22.5}
+      - - {x: 39, y: -2.5}
+        - {x: 30, y: -22.5}
+        - {x: 39, y: 22.5}
+      physicsShape:
+      - - {x: -39, y: 22.5}
+        - {x: -39, y: -3.5}
+        - {x: -38, y: -10.5}
+        - {x: -20, y: -22.5}
+        - {x: 24, y: -22.5}
+        - {x: 39, y: -1.5}
+        - {x: 39, y: 22.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catapulttest_0_00_14
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 114
+        width: 73
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: -9.5}
+        - {x: -36.5, y: 3.5}
+        - {x: 1.5, y: -16.5}
+      - - {x: -30.5, y: 16.5}
+        - {x: 1.5, y: -16.5}
+        - {x: -36.5, y: 3.5}
+      - - {x: -13.5, y: 16.5}
+        - {x: 1.5, y: -16.5}
+        - {x: -30.5, y: 16.5}
+      - - {x: 36.5, y: 8.5}
+        - {x: 1.5, y: -16.5}
+        - {x: -13.5, y: 16.5}
+      - - {x: 36.5, y: -16.5}
+        - {x: 1.5, y: -16.5}
+        - {x: 36.5, y: 8.5}
+      physicsShape:
+      - - {x: -19.5, y: 16.5}
+        - {x: -28.5, y: 16.5}
+        - {x: -29.5, y: 15.5}
+        - {x: -36.5, y: 2.5}
+        - {x: -36.5, y: -7.5}
+        - {x: -21.5, y: -9.5}
+        - {x: 18.5, y: -15.5}
+        - {x: 25.5, y: -16.5}
+        - {x: 36.5, y: -16.5}
+        - {x: 36.5, y: 6.5}
+        - {x: 5.5, y: 12.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catapulttest_0_00_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 371
+        width: 39
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: -64.5}
+        - {x: -19.5, y: 16.5}
+        - {x: 17.5, y: -64.5}
+      - - {x: -13.5, y: 64.5}
+        - {x: 17.5, y: -64.5}
+        - {x: -19.5, y: 16.5}
+      - - {x: 19.5, y: 64.5}
+        - {x: 17.5, y: -64.5}
+        - {x: -13.5, y: 64.5}
+      - - {x: 19.5, y: -50.5}
+        - {x: 17.5, y: -64.5}
+        - {x: 19.5, y: 64.5}
+      physicsShape:
+      - - {x: 9.5, y: 63.5}
+        - {x: 7.5, y: 64.5}
+        - {x: -11.5, y: 64.5}
+        - {x: -12.5, y: 63.5}
+        - {x: -13.5, y: 50.5}
+        - {x: -19.5, y: -31.5}
+        - {x: -19.5, y: -64.5}
+        - {x: 16.5, y: -64.5}
+        - {x: 19.5, y: 6.5}
+        - {x: 19.5, y: 59.5}
+        - {x: 15.5, y: 61.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catapulttest_0_00_11
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 253
+        width: 73
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: -20.5}
+        - {x: -36.5, y: 9.5}
+        - {x: 36.5, y: -20.5}
+      - - {x: -23.5, y: 20.5}
+        - {x: 36.5, y: -20.5}
+        - {x: -36.5, y: 9.5}
+      - - {x: 19.5, y: 20.5}
+        - {x: 36.5, y: -20.5}
+        - {x: -23.5, y: 20.5}
+      - - {x: 26.5, y: 19.5}
+        - {x: 36.5, y: -20.5}
+        - {x: 19.5, y: 20.5}
+      - - {x: 36.5, y: 2.5}
+        - {x: 36.5, y: -20.5}
+        - {x: 26.5, y: 19.5}
+      physicsShape:
+      - - {x: -26.5, y: 20.5}
+        - {x: -36.5, y: 2.5}
+        - {x: -36.5, y: -20.5}
+        - {x: 36.5, y: -20.5}
+        - {x: 36.5, y: 6.5}
+        - {x: 23.5, y: 20.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catapulttest_0_00_6
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 358
+        width: 77
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: -17}
+        - {x: -38.5, y: 2}
+        - {x: 38.5, y: -17}
+      - - {x: -32.5, y: 17}
+        - {x: 38.5, y: -17}
+        - {x: -38.5, y: 2}
+      - - {x: 23.5, y: 17}
+        - {x: 38.5, y: -17}
+        - {x: -32.5, y: 17}
+      - - {x: 38.5, y: -3}
+        - {x: 38.5, y: -17}
+        - {x: 23.5, y: 17}
+      physicsShape:
+      - - {x: -22.5, y: 17}
+        - {x: -35.5, y: 3}
+        - {x: -38.5, y: -7}
+        - {x: -38.5, y: -16}
+        - {x: -36.5, y: -17}
+        - {x: 38.5, y: -17}
+        - {x: 38.5, y: -8}
+        - {x: 34.5, y: 6}
+        - {x: 21.5, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catapulttest_0_00_5
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 345
+        width: 41
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: -15.5}
+        - {x: -20.5, y: 14.5}
+        - {x: -13.5, y: -20.5}
+      - - {x: -16.5, y: 20.5}
+        - {x: -13.5, y: -20.5}
+        - {x: -20.5, y: 14.5}
+      - - {x: 16.5, y: 20.5}
+        - {x: -13.5, y: -20.5}
+        - {x: -16.5, y: 20.5}
+      - - {x: 18.5, y: -20.5}
+        - {x: -13.5, y: -20.5}
+        - {x: 16.5, y: 20.5}
+      - - {x: 20.5, y: 15.5}
+        - {x: 18.5, y: -20.5}
+        - {x: 16.5, y: 20.5}
+      - - {x: 20.5, y: -13.5}
+        - {x: 18.5, y: -20.5}
+        - {x: 20.5, y: 15.5}
+      physicsShape:
+      - - {x: 15.5, y: 20.5}
+        - {x: -13.5, y: 20.5}
+        - {x: -20.5, y: 18.5}
+        - {x: -20.5, y: -12.5}
+        - {x: -13.5, y: -20.5}
+        - {x: 13.5, y: -20.5}
+        - {x: 20.5, y: -11.5}
+        - {x: 20.5, y: 13.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catapulttest_0_00_13
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 15
+        width: 38
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: -70}
+        - {x: -19, y: 69}
+        - {x: 19, y: -70}
+      - - {x: -16, y: 70}
+        - {x: 19, y: -70}
+        - {x: -19, y: 69}
+      - - {x: 19, y: 70}
+        - {x: 19, y: -70}
+        - {x: -16, y: 70}
+      physicsShape:
+      - - {x: 17, y: 62}
+        - {x: 16, y: 70}
+        - {x: -14, y: 70}
+        - {x: -14, y: 65}
+        - {x: -7, y: 25}
+        - {x: -8, y: -2}
+        - {x: -19, y: -51}
+        - {x: -19, y: -70}
+        - {x: 0, y: -70}
+        - {x: 16, y: -60}
+        - {x: 19, y: -57}
+        - {x: 19, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catapulttest_0_00_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 351
+        width: 93
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: 9.5}
+        - {x: -46.5, y: 16.5}
+        - {x: -44.5, y: 5.5}
+      - - {x: 46.5, y: 16.5}
+        - {x: -44.5, y: 5.5}
+        - {x: -46.5, y: 16.5}
+      - - {x: -18.5, y: -16.5}
+        - {x: -44.5, y: 5.5}
+        - {x: 46.5, y: 16.5}
+      - - {x: 46.5, y: -16.5}
+        - {x: -18.5, y: -16.5}
+        - {x: 46.5, y: 16.5}
+      physicsShape:
+      - - {x: -46.5, y: 16.5}
+        - {x: -46.5, y: 12.5}
+        - {x: -16.5, y: -16.5}
+        - {x: 46.5, y: -16.5}
+        - {x: 46.5, y: 14.5}
+        - {x: 38.5, y: 16.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catapulttest_0_00_15
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 110
+        width: 66
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 12}
+        - {x: 33, y: 12}
+        - {x: -33, y: -12}
+      - - {x: -33, y: -12}
+        - {x: 33, y: 12}
+        - {x: 33, y: -12}
+      physicsShape:
+      - - {x: -33, y: 12}
+        - {x: -33, y: -11}
+        - {x: -25, y: -12}
+        - {x: 33, y: -12}
+        - {x: 33, y: 11}
+        - {x: 16, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catapulttest_0_00_12
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 194
+        width: 73
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: -8}
+        - {x: -36.5, y: 16}
+        - {x: -35.5, y: -16}
+      - - {x: 36.5, y: 16}
+        - {x: -35.5, y: -16}
+        - {x: -36.5, y: 16}
+      - - {x: 36.5, y: -16}
+        - {x: -35.5, y: -16}
+        - {x: 36.5, y: 16}
+      physicsShape:
+      - - {x: -36.5, y: 16}
+        - {x: -36.5, y: -6}
+        - {x: -20.5, y: -16}
+        - {x: 23.5, y: -16}
+        - {x: 36.5, y: 3}
+        - {x: 36.5, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catapulttest_0_00_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 397
+        width: 412
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -206, y: -52}
+        - {x: -206, y: 52}
+        - {x: 167, y: -52}
+      - - {x: 206, y: 52}
+        - {x: 167, y: -52}
+        - {x: -206, y: 52}
+      - - {x: 206, y: -18}
+        - {x: 167, y: -52}
+        - {x: 206, y: 52}
+      physicsShape:
+      - - {x: 135, y: -20}
+        - {x: 190, y: -20}
+        - {x: 199, y: -13}
+        - {x: 205, y: 24}
+        - {x: 206, y: 26}
+        - {x: 206, y: 39}
+        - {x: 191, y: 47}
+        - {x: 176, y: 45}
+        - {x: 167, y: 48}
+        - {x: 161, y: 48}
+        - {x: 149, y: 42}
+        - {x: 134, y: 40}
+        - {x: 128, y: 46}
+        - {x: 118, y: 52}
+        - {x: 110, y: 52}
+        - {x: 105, y: 50}
+        - {x: 97.99999, y: 48}
+        - {x: 91.99999, y: 52}
+        - {x: 65, y: 52}
+        - {x: 31, y: 45}
+        - {x: 23, y: 49}
+        - {x: 17, y: 46}
+        - {x: -9, y: 48}
+        - {x: -17, y: 46}
+        - {x: -24, y: 41}
+        - {x: -48, y: 46}
+        - {x: -58, y: 52}
+        - {x: -71, y: 52}
+        - {x: -75, y: 51}
+        - {x: -107, y: 51}
+        - {x: -142, y: 46}
+        - {x: -150, y: 49}
+        - {x: -171, y: 45}
+        - {x: -179, y: 48}
+        - {x: -190, y: 46}
+        - {x: -206, y: 39}
+        - {x: -206, y: 20}
+        - {x: -204, y: 7}
+        - {x: -193, y: -8}
+        - {x: -197, y: -25}
+        - {x: -197, y: -43}
+        - {x: -190, y: -47}
+        - {x: -163, y: -47}
+        - {x: -143, y: -49}
+        - {x: -131, y: -47}
+        - {x: -121, y: -45}
+        - {x: -111, y: -47}
+        - {x: -97, y: -49}
+        - {x: -82, y: -48}
+        - {x: -79, y: -52}
+        - {x: -55, y: -52}
+        - {x: -43, y: -41}
+        - {x: -37, y: -34}
+        - {x: -37, y: -42}
+        - {x: -36, y: -45}
+        - {x: -20, y: -49}
+        - {x: -8, y: -48}
+        - {x: 22, y: -46}
+        - {x: 39, y: -43}
+        - {x: 47, y: -47}
+        - {x: 71, y: -47}
+        - {x: 82, y: -52}
+        - {x: 101, y: -52}
+        - {x: 114, y: -41}
+        - {x: 122, y: -32}
+        - {x: 129, y: -19}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catapulttest_0_00_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 233
+        width: 274
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: -14.5}
+        - {x: -137, y: 28.5}
+        - {x: -13, y: -28.5}
+      - - {x: 137, y: 28.5}
+        - {x: -13, y: -28.5}
+        - {x: -137, y: 28.5}
+      - - {x: 137, y: -28.5}
+        - {x: -13, y: -28.5}
+        - {x: 137, y: 28.5}
+      physicsShape:
+      - - {x: 137, y: 15.5}
+        - {x: 123, y: 16.5}
+        - {x: 81, y: 20.5}
+        - {x: 47, y: 24.5}
+        - {x: 43, y: 28.5}
+        - {x: -62, y: 28.5}
+        - {x: -88, y: 25.5}
+        - {x: -121, y: 20.5}
+        - {x: -133, y: 18.5}
+        - {x: -137, y: 16.5}
+        - {x: -137, y: 6.5}
+        - {x: -132, y: 4.5}
+        - {x: -109, y: 8.5}
+        - {x: -77, y: 11.5}
+        - {x: -60, y: 14.5}
+        - {x: -23, y: 15.5}
+        - {x: -22, y: 14.5}
+        - {x: 18, y: 8.5}
+        - {x: 39, y: 0.5}
+        - {x: 44, y: -8.5}
+        - {x: 58, y: -21.5}
+        - {x: 66, y: -25.5}
+        - {x: 74, y: -28.5}
+        - {x: 107, y: -28.5}
+        - {x: 119, y: -21.5}
+        - {x: 132, y: -6.5}
+        - {x: 137, y: 1.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catapulttest_0_00_16
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 111
+        width: 68
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 13.5}
+        - {x: 34, y: 13.5}
+        - {x: -34, y: -13.5}
+      - - {x: -34, y: -13.5}
+        - {x: 34, y: 13.5}
+        - {x: 34, y: -13.5}
+      physicsShape:
+      - - {x: 23, y: 13.5}
+        - {x: -8, y: 13.5}
+        - {x: -13, y: 12.5}
+        - {x: -34, y: 8.5}
+        - {x: -34, y: -13.5}
+        - {x: -9.999999, y: -13.5}
+        - {x: 34, y: -10.5}
+        - {x: 34, y: 1.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catapulttest_0_00_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 348
+        width: 44
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: -15}
+        - {x: -22, y: 17}
+        - {x: -9, y: -17}
+      - - {x: 22, y: 17}
+        - {x: -9, y: -17}
+        - {x: -22, y: 17}
+      - - {x: 22, y: -17}
+        - {x: -9, y: -17}
+        - {x: 22, y: 17}
+      physicsShape:
+      - - {x: -22, y: 17}
+        - {x: -22, y: -14}
+        - {x: -9, y: -17}
+        - {x: 22, y: -17}
+        - {x: 22, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      catapulttest_0_00_16: 21300032
+      catapulttest_0_00_5: 21300010
+      catapulttest_0_00_11: 21300022
+      catapulttest_0_00_10: 21300020
+      catapulttest_0_00_7: 21300014
+      catapulttest_0_00_4: 21300008
+      catapulttest_0_00_12: 21300024
+      catapulttest_0_00_8: 21300016
+      catapulttest_0_00_13: 21300026
+      catapulttest_0_00_1: 21300002
+      catapulttest_0_00_14: 21300028
+      catapulttest_0_00_0: 21300000
+      catapulttest_0_00_9: 21300018
+      catapulttest_0_00_2: 21300004
+      catapulttest_0_00_6: 21300012
+      catapulttest_0_00_15: 21300030
+      catapulttest_0_00_3: 21300006
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

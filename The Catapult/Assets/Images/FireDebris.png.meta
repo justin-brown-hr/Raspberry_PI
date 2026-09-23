@@ -1,0 +1,449 @@
+fileFormatVersion: 2
+guid: f68d80f7587f43079820ed8996418ab6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: FireDebris_0
+  - first:
+      213: 21300002
+    second: FireDebris_1
+  - first:
+      213: 21300004
+    second: FireDebris_2
+  - first:
+      213: 21300006
+    second: FireDebris_3
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FireDebris_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 196
+        width: 212
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 54}
+        - {x: 32, y: 54}
+        - {x: -25, y: 51}
+      - - {x: -11, y: 48}
+        - {x: -25, y: 51}
+        - {x: 32, y: 54}
+      - - {x: 5, y: 45}
+        - {x: -11, y: 48}
+        - {x: 32, y: 54}
+      - - {x: 23, y: 45}
+        - {x: 5, y: 45}
+        - {x: 32, y: 54}
+      - - {x: 32, y: 52}
+        - {x: 23, y: 45}
+        - {x: 32, y: 54}
+      - - {x: -106, y: -7}
+        - {x: -106, y: 50}
+        - {x: -80, y: -54}
+      - - {x: -104, y: 54}
+        - {x: -80, y: -54}
+        - {x: -106, y: 50}
+      - - {x: -26, y: 54}
+        - {x: -80, y: -54}
+        - {x: -104, y: 54}
+      - - {x: -25, y: 51}
+        - {x: -80, y: -54}
+        - {x: -26, y: 54}
+      - - {x: 93, y: -54}
+        - {x: -80, y: -54}
+        - {x: -25, y: 51}
+      - - {x: -11, y: 48}
+        - {x: 93, y: -54}
+        - {x: -25, y: 51}
+      - - {x: 5, y: 45}
+        - {x: 93, y: -54}
+        - {x: -11, y: 48}
+      - - {x: 23, y: 45}
+        - {x: 93, y: -54}
+        - {x: 5, y: 45}
+      - - {x: 32, y: 52}
+        - {x: 93, y: -54}
+        - {x: 23, y: 45}
+      - - {x: 32, y: 54}
+        - {x: 93, y: -54}
+        - {x: 32, y: 52}
+      - - {x: 104, y: 54}
+        - {x: 93, y: -54}
+        - {x: 32, y: 54}
+      - - {x: 106, y: -39}
+        - {x: 93, y: -54}
+        - {x: 104, y: 54}
+      - - {x: 106, y: 41}
+        - {x: 106, y: -39}
+        - {x: 104, y: 54}
+      physicsShape:
+      - - {x: 89, y: -9}
+        - {x: 91, y: -5}
+        - {x: 91, y: 3}
+        - {x: 90, y: 11}
+        - {x: 82, y: 31}
+        - {x: 79, y: 38}
+        - {x: 76, y: 38}
+        - {x: 50, y: 12}
+        - {x: 45, y: 11}
+        - {x: 21, y: 24}
+        - {x: 16, y: 25}
+        - {x: 13, y: 22}
+        - {x: 9, y: 13}
+        - {x: -55, y: 28}
+        - {x: -59, y: 31}
+        - {x: -69, y: 36}
+        - {x: -83, y: 38}
+        - {x: -90, y: 38}
+        - {x: -91, y: 36}
+        - {x: -91, y: 26}
+        - {x: -88, y: 11}
+        - {x: -79, y: 1}
+        - {x: -57, y: -16}
+        - {x: -48, y: -19}
+        - {x: -18, y: -27}
+        - {x: -13, y: -30}
+        - {x: -5, y: -32}
+        - {x: 16, y: -36}
+        - {x: 44, y: -36}
+        - {x: 58, y: -32}
+        - {x: 72.99999, y: -23}
+        - {x: 81, y: -17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDebris_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 309
+        width: 148
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 45.5}
+        - {x: 15, y: 54.5}
+        - {x: -32, y: 45.5}
+      - - {x: 25, y: 50.5}
+        - {x: -32, y: 45.5}
+        - {x: 15, y: 54.5}
+      - - {x: 26, y: 54.5}
+        - {x: 25, y: 50.5}
+        - {x: 15, y: 54.5}
+      - - {x: 26, y: 53.5}
+        - {x: 25, y: 50.5}
+        - {x: 26, y: 54.5}
+      - - {x: -74, y: -43.5}
+        - {x: -74, y: 27.5}
+        - {x: -46, y: -54.5}
+      - - {x: -63, y: 43.5}
+        - {x: -46, y: -54.5}
+        - {x: -74, y: 27.5}
+      - - {x: -49, y: 45.5}
+        - {x: -46, y: -54.5}
+        - {x: -63, y: 43.5}
+      - - {x: -32, y: 45.5}
+        - {x: -46, y: -54.5}
+        - {x: -49, y: 45.5}
+      - - {x: 57, y: -54.5}
+        - {x: -46, y: -54.5}
+        - {x: -32, y: 45.5}
+      - - {x: 25, y: 50.5}
+        - {x: 57, y: -54.5}
+        - {x: -32, y: 45.5}
+      - - {x: 26, y: 53.5}
+        - {x: 57, y: -54.5}
+        - {x: 25, y: 50.5}
+      - - {x: 26, y: 54.5}
+        - {x: 57, y: -54.5}
+        - {x: 26, y: 53.5}
+      - - {x: 74, y: 54.5}
+        - {x: 57, y: -54.5}
+        - {x: 26, y: 54.5}
+      - - {x: 74, y: -25.5}
+        - {x: 57, y: -54.5}
+        - {x: 74, y: 54.5}
+      - - {x: -65, y: 54.5}
+        - {x: 15, y: 54.5}
+        - {x: -63, y: 49.5}
+      - - {x: -57, y: 45.5}
+        - {x: -63, y: 49.5}
+        - {x: 15, y: 54.5}
+      - - {x: -49, y: 45.5}
+        - {x: -57, y: 45.5}
+        - {x: 15, y: 54.5}
+      physicsShape:
+      - - {x: 61, y: -12.5}
+        - {x: 70, y: 16.5}
+        - {x: 72, y: 22.5}
+        - {x: 72, y: 34.5}
+        - {x: 70, y: 43.5}
+        - {x: 63, y: 52.5}
+        - {x: 58, y: 51.5}
+        - {x: 35, y: 30.5}
+        - {x: 19, y: 21.5}
+        - {x: 12, y: 21.5}
+        - {x: -22, y: 15.5}
+        - {x: -54, y: 14.5}
+        - {x: -66.99999, y: 5.5}
+        - {x: -71, y: -17.5}
+        - {x: -71, y: -22.5}
+        - {x: -44, y: -37.5}
+        - {x: -41, y: -41.5}
+        - {x: 19, y: -50.5}
+        - {x: 34, y: -51.5}
+        - {x: 38, y: -51.5}
+        - {x: 39, y: -49.5}
+        - {x: 40, y: -30.5}
+        - {x: 58, y: -15.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDebris_3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 324
+        width: 96
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: -71}
+        - {x: -48, y: 77}
+        - {x: -46, y: -77}
+      - - {x: -2, y: 77}
+        - {x: -46, y: -77}
+        - {x: -48, y: 77}
+      - - {x: 48, y: -77}
+        - {x: -46, y: -77}
+        - {x: -2, y: 77}
+      - - {x: 36, y: 50}
+        - {x: 48, y: -77}
+        - {x: -2, y: 77}
+      - - {x: 48, y: 21}
+        - {x: 48, y: -77}
+        - {x: 36, y: 50}
+      physicsShape:
+      - - {x: 41, y: -17}
+        - {x: 28, y: 20}
+        - {x: 16, y: 38}
+        - {x: 9, y: 44}
+        - {x: -17, y: 62}
+        - {x: -24, y: 65}
+        - {x: -26, y: 62}
+        - {x: -16, y: 41}
+        - {x: -9.999999, y: 30}
+        - {x: -9, y: 17}
+        - {x: -22, y: -11}
+        - {x: -44, y: -36}
+        - {x: -44, y: -50}
+        - {x: -43, y: -57}
+        - {x: -39, y: -61}
+        - {x: -36, y: -60}
+        - {x: -35, y: -51}
+        - {x: -17, y: -61}
+        - {x: -8, y: -69}
+        - {x: 5, y: -61}
+        - {x: 23, y: -42}
+        - {x: 31, y: -65}
+        - {x: 33, y: -70}
+        - {x: 36, y: -70}
+        - {x: 38, y: -68}
+        - {x: 43, y: -38}
+        - {x: 43, y: -28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDebris_2
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 421
+        width: 140
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -70, y: -43}
+        - {x: -70, y: -1}
+        - {x: 70, y: -43}
+      - - {x: -68, y: 17}
+        - {x: 70, y: -43}
+        - {x: -70, y: -1}
+      - - {x: -50, y: 26}
+        - {x: 70, y: -43}
+        - {x: -68, y: 17}
+      - - {x: -47, y: 29}
+        - {x: 70, y: -43}
+        - {x: -50, y: 26}
+      - - {x: -23, y: 43}
+        - {x: 70, y: -43}
+        - {x: -47, y: 29}
+      - - {x: 70, y: 43}
+        - {x: 70, y: -43}
+        - {x: -23, y: 43}
+      physicsShape:
+      - - {x: 40, y: -28}
+        - {x: 68, y: 6}
+        - {x: 68, y: 9}
+        - {x: 60, y: 30}
+        - {x: 51, y: 36}
+        - {x: 31, y: 38}
+        - {x: 12, y: 38}
+        - {x: -4, y: 31}
+        - {x: -35, y: 15}
+        - {x: -43, y: 9.999999}
+        - {x: -50, y: -7}
+        - {x: -55, y: -19}
+        - {x: -61, y: -34}
+        - {x: -62, y: -38}
+        - {x: -60, y: -40}
+        - {x: -58, y: -40}
+        - {x: -27, y: -38}
+        - {x: 14, y: -34}
+        - {x: 33, y: -33}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FireDebris_2: 21300004
+      FireDebris_3: 21300006
+      FireDebris_1: 21300002
+      FireDebris_0: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

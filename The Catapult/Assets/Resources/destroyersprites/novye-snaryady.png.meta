@@ -1,0 +1,538 @@
+fileFormatVersion: 2
+guid: 6fea5f2229f14a329149f56dbf8a5a99
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: novye-snaryady_1
+  - first:
+      213: 21300002
+    second: novye-snaryady_0
+  - first:
+      213: 21300004
+    second: novye-snaryady_2
+  - first:
+      213: 21300006
+    second: novye-snaryady_3
+  - first:
+      213: 21300008
+    second: novye-snaryady_4
+  - first:
+      213: 21300010
+    second: novye-snaryady_5
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 76
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: novye-snaryady_0
+      rect:
+        serializedVersion: 2
+        x: 162.0761
+        y: 814
+        width: 126.9239
+        height: 162.9733
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.53807, y: -20.48663}
+        - {x: -63.53807, y: 9.513374}
+        - {x: -20.53806, y: -81.48661}
+      - - {x: -36.53806, y: 81.5134}
+        - {x: -20.53806, y: -81.48661}
+        - {x: -63.53807, y: 9.513374}
+      - - {x: 50.46193, y: 81.5134}
+        - {x: -20.53806, y: -81.48661}
+        - {x: -36.53806, y: 81.5134}
+      - - {x: 14.46193, y: -81.48661}
+        - {x: -20.53806, y: -81.48661}
+        - {x: 50.46193, y: 81.5134}
+      - - {x: 27.46193, y: -79.4866}
+        - {x: 14.46193, y: -81.48661}
+        - {x: 50.46193, y: 81.5134}
+      - - {x: 63.46193, y: -35.48663}
+        - {x: 27.46193, y: -79.4866}
+        - {x: 50.46193, y: 81.5134}
+      - - {x: 63.46193, y: 26.51338}
+        - {x: 63.46193, y: -35.48663}
+        - {x: 50.46193, y: 81.5134}
+      physicsShape:
+      - - {x: 63.46193, y: -16.48663}
+        - {x: 63.46193, y: 0.5133743}
+        - {x: 57.46193, y: 21.51337}
+        - {x: 54.46194, y: 33.51337}
+        - {x: 52.46193, y: 38.51337}
+        - {x: 29.46193, y: 69.51337}
+        - {x: 26.46193, y: 70.51337}
+        - {x: 9.461934, y: 65.51337}
+        - {x: -20.53807, y: 80.51337}
+        - {x: -24.53807, y: 80.51337}
+        - {x: -26.53807, y: 78.51337}
+        - {x: -26.53807, y: 73.51337}
+        - {x: -14.53807, y: 50.51337}
+        - {x: -7.538067, y: 39.51337}
+        - {x: -19.53807, y: 12.51337}
+        - {x: -48.53807, y: 4.513374}
+        - {x: -62.53807, y: -1.486626}
+        - {x: -62.53807, y: -6.486626}
+        - {x: -59.53807, y: -9.486626}
+        - {x: -38.53807, y: -16.48663}
+        - {x: -27.53807, y: -19.48663}
+        - {x: -21.53807, y: -42.48663}
+        - {x: -25.53807, y: -44.48663}
+        - {x: -34.53807, y: -49.48663}
+        - {x: -33.53807, y: -53.48663}
+        - {x: -14.53807, y: -51.48663}
+        - {x: -5.538067, y: -59.48663}
+        - {x: -13.53807, y: -75.48663}
+        - {x: -11.53807, y: -81.48663}
+        - {x: -5.538067, y: -81.48663}
+        - {x: 10.46193, y: -71.48663}
+        - {x: 24.46194, y: -74.48663}
+        - {x: 35.46194, y: -59.48663}
+        - {x: 50.46193, y: -26.48663}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novye-snaryady_4
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 506
+        width: 102.8507
+        height: 81.93788
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.42533, y: -17.96894}
+        - {x: -51.42533, y: 38.03106}
+        - {x: -7.425327, y: -40.96894}
+      - - {x: -26.42533, y: 41.03106}
+        - {x: -7.425327, y: -40.96894}
+        - {x: -51.42533, y: 38.03106}
+      - - {x: 51.57467, y: 41.03106}
+        - {x: -7.425327, y: -40.96894}
+        - {x: -26.42533, y: 41.03106}
+      - - {x: 51.57467, y: -40.96894}
+        - {x: -7.425327, y: -40.96894}
+        - {x: 51.57467, y: 41.03106}
+      physicsShape:
+      - - {x: 48.57467, y: 35.03106}
+        - {x: 40.57467, y: 39.03106}
+        - {x: 33.57467, y: 40.03106}
+        - {x: 15.57467, y: 40.03106}
+        - {x: -7.425328, y: 34.03106}
+        - {x: -26.42533, y: 25.03106}
+        - {x: -45.42533, y: 27.03106}
+        - {x: -48.42533, y: 24.03106}
+        - {x: -48.42533, y: 9.031059}
+        - {x: -45.42533, y: 1.031059}
+        - {x: -42.42533, y: -4.968941}
+        - {x: -23.42533, y: -20.96894}
+        - {x: -14.42533, y: -26.96894}
+        - {x: 13.57467, y: -32.96894}
+        - {x: 19.57467, y: -35.96894}
+        - {x: 34.57467, y: -39.96894}
+        - {x: 48.57467, y: -39.96894}
+        - {x: 50.57468, y: -38.96894}
+        - {x: 50.57468, y: -31.96894}
+        - {x: 46.57467, y: 0.03105927}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novye-snaryady_5
+      rect:
+        serializedVersion: 2
+        x: 649.0761
+        y: 504
+        width: 63.92388
+        height: 146
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.03806, y: -59}
+        - {x: -32.03806, y: 31}
+        - {x: -29.03805, y: -73}
+      - - {x: -23.03805, y: 73}
+        - {x: -29.03805, y: -73}
+        - {x: -32.03806, y: 31}
+      - - {x: -0.03804994, y: -73}
+        - {x: -29.03805, y: -73}
+        - {x: -23.03805, y: 73}
+      - - {x: 20.96195, y: 73}
+        - {x: -0.03804994, y: -73}
+        - {x: -23.03805, y: 73}
+      - - {x: 9.961947, y: -71}
+        - {x: -0.03804994, y: -73}
+        - {x: 20.96195, y: 73}
+      - - {x: 31.96195, y: -60}
+        - {x: 9.961947, y: -71}
+        - {x: 20.96195, y: 73}
+      - - {x: 31.96195, y: 31}
+        - {x: 31.96195, y: -60}
+        - {x: 20.96195, y: 73}
+      physicsShape:
+      - - {x: 31.96195, y: -42}
+        - {x: 31.96195, y: 8}
+        - {x: 25.96195, y: 33}
+        - {x: 7.96195, y: 66}
+        - {x: -14.03805, y: 72}
+        - {x: -18.03805, y: 72}
+        - {x: -20.03805, y: 69}
+        - {x: -14.03805, y: 19}
+        - {x: -30.03805, y: 2}
+        - {x: -32.03805, y: -21}
+        - {x: -32.03805, y: -27}
+        - {x: -31.03805, y: -34}
+        - {x: -29.03805, y: -49}
+        - {x: -27.03805, y: -63}
+        - {x: -28.03805, y: -69}
+        - {x: -24.03805, y: -70}
+        - {x: -3.03805, y: -70}
+        - {x: 11.96195, y: -62}
+        - {x: 20.96195, y: -55}
+        - {x: 27.96195, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novye-snaryady_2
+      rect:
+        serializedVersion: 2
+        x: 281.0268
+        y: 657.0267
+        width: 175.8971
+        height: 145.8971
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -87.97533, y: -31.9753}
+        - {x: -87.97533, y: -10.9753}
+        - {x: -70.97533, y: -70.9753}
+      - - {x: -64.97533, y: 24.0247}
+        - {x: -70.97533, y: -70.9753}
+        - {x: -87.97533, y: -10.9753}
+      - - {x: -63.97532, y: -72.9753}
+        - {x: -70.97533, y: -70.9753}
+        - {x: -64.97533, y: 24.0247}
+      - - {x: -36.97533, y: 66.0247}
+        - {x: -63.97532, y: -72.9753}
+        - {x: -64.97533, y: 24.0247}
+      - - {x: 87.0247, y: -72.9753}
+        - {x: -63.97532, y: -72.9753}
+        - {x: -36.97533, y: 66.0247}
+      - - {x: 13.02468, y: 73.0247}
+        - {x: 87.0247, y: -72.9753}
+        - {x: -36.97533, y: 66.0247}
+      - - {x: 88.02464, y: 73.0247}
+        - {x: 87.0247, y: -72.9753}
+        - {x: 13.02468, y: 73.0247}
+      - - {x: 88.02464, y: -71.9753}
+        - {x: 87.0247, y: -72.9753}
+        - {x: 88.02464, y: 73.0247}
+      physicsShape:
+      - - {x: -14.97533, y: -58.9753}
+        - {x: -11.97533, y: -61.9753}
+        - {x: -7.975327, y: -60.9753}
+        - {x: -3.975327, y: -41.9753}
+        - {x: 12.02467, y: -33.9753}
+        - {x: 49.02467, y: -57.9753}
+        - {x: 59.02467, y: -55.9753}
+        - {x: 41.02467, y: -15.9753}
+        - {x: 46.02467, y: -6.975296}
+        - {x: 54.02467, y: -3.975296}
+        - {x: 55.02468, y: -0.975296}
+        - {x: 46.02467, y: 8.024704}
+        - {x: 64.02467, y: 6.024704}
+        - {x: 71.02467, y: 10.0247}
+        - {x: 69.02467, y: 13.0247}
+        - {x: 57.02467, y: 20.02471}
+        - {x: 49.02467, y: 23.0247}
+        - {x: 64.02467, y: 39.0247}
+        - {x: 87.02467, y: 51.0247}
+        - {x: 87.02467, y: 57.02471}
+        - {x: 81.02467, y: 60.0247}
+        - {x: 41.02467, y: 64.0247}
+        - {x: 39.02467, y: 70.0247}
+        - {x: 38.02467, y: 72.0247}
+        - {x: 35.02467, y: 72.0247}
+        - {x: 24.02467, y: 65.0247}
+        - {x: 2.024673, y: 49.0247}
+        - {x: -4.975327, y: 54.0247}
+        - {x: -28.97533, y: 50.02471}
+        - {x: -56.97533, y: 32.0247}
+        - {x: -63.97533, y: 24.0247}
+        - {x: -86.97533, y: -17.9753}
+        - {x: -86.97533, y: -23.9753}
+        - {x: -75.97533, y: -28.9753}
+        - {x: -65.97533, y: -68.9753}
+        - {x: -60.97533, y: -71.9753}
+        - {x: -54.97533, y: -71.9753}
+        - {x: -51.97533, y: -64.9753}
+        - {x: -42.97533, y: -37.9753}
+        - {x: -15.97533, y: -39.9753}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novye-snaryady_3
+      rect:
+        serializedVersion: 2
+        x: 529.0761
+        y: 636
+        width: 114.8478
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.5, y: -40.5}
+        - {x: -57.5, y: -18.5}
+        - {x: -13.49999, y: -40.5}
+      - - {x: -41.49999, y: 33.5}
+        - {x: -13.49999, y: -40.5}
+        - {x: -57.5, y: -18.5}
+      - - {x: -8.499992, y: 40.5}
+        - {x: -13.49999, y: -40.5}
+        - {x: -41.49999, y: 33.5}
+      - - {x: 42.50001, y: -32.5}
+        - {x: -13.49999, y: -40.5}
+        - {x: -8.499992, y: 40.5}
+      - - {x: 55.50001, y: 40.5}
+        - {x: 42.50001, y: -32.5}
+        - {x: -8.499992, y: 40.5}
+      - - {x: 57.5, y: -21.5}
+        - {x: 42.50001, y: -32.5}
+        - {x: 55.50001, y: 40.5}
+      - - {x: 57.5, y: 25.5}
+        - {x: 57.5, y: -21.5}
+        - {x: 55.50001, y: 40.5}
+      physicsShape:
+      - - {x: 56.50001, y: 23.5}
+        - {x: 51.50001, y: 38.5}
+        - {x: 49.50001, y: 40.5}
+        - {x: 3.500008, y: 40.5}
+        - {x: -11.49999, y: 33.5}
+        - {x: -31.49999, y: 22.5}
+        - {x: -33.49999, y: 19.5}
+        - {x: -49.49999, y: -14.5}
+        - {x: -53.49999, y: -34.5}
+        - {x: -53.49999, y: -38.5}
+        - {x: -52.49999, y: -40.5}
+        - {x: -22.49999, y: -40.5}
+        - {x: 12.50001, y: -26.5}
+        - {x: 37.50001, y: -34.5}
+        - {x: 56.50001, y: -21.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novye-snaryady_1
+      rect:
+        serializedVersion: 2
+        x: 325.0268
+        y: 874
+        width: 127.9465
+        height: 123.9871
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.00002, y: 4.006451}
+        - {x: -64.00002, y: 62.00645}
+        - {x: -29.00002, y: -61.99355}
+      - - {x: 6.999982, y: 62.00645}
+        - {x: -29.00002, y: -61.99355}
+        - {x: -64.00002, y: 62.00645}
+      - - {x: 0.9999843, y: -61.99355}
+        - {x: -29.00002, y: -61.99355}
+        - {x: 6.999982, y: 62.00645}
+      - - {x: 29.99998, y: -57.99355}
+        - {x: 0.9999843, y: -61.99355}
+        - {x: 6.999982, y: 62.00645}
+      - - {x: 63.99998, y: 30.00645}
+        - {x: 29.99998, y: -57.99355}
+        - {x: 6.999982, y: 62.00645}
+      - - {x: 59.99998, y: -30.99355}
+        - {x: 29.99998, y: -57.99355}
+        - {x: 63.99998, y: 30.00645}
+      - - {x: 63.99998, y: -20.99355}
+        - {x: 59.99998, y: -30.99355}
+        - {x: 63.99998, y: 30.00645}
+      physicsShape:
+      - - {x: 56.99998, y: -18.99355}
+        - {x: 52.99998, y: 0.006450653}
+        - {x: 62.99998, y: 13.00645}
+        - {x: 62.99998, y: 18.00645}
+        - {x: 56.99998, y: 20.00645}
+        - {x: 31.99998, y: 10.00645}
+        - {x: 7.999985, y: 27.00645}
+        - {x: 3.999985, y: 51.00645}
+        - {x: 2.999985, y: 54.00645}
+        - {x: -5.000015, y: 52.00645}
+        - {x: -24.00002, y: 33.00645}
+        - {x: -36.00002, y: 33.00645}
+        - {x: -44.00002, y: 28.00645}
+        - {x: -47.00002, y: 41.00645}
+        - {x: -59.00002, y: 61.00645}
+        - {x: -63.00002, y: 61.00645}
+        - {x: -63.00002, y: 48.00645}
+        - {x: -59.00002, y: 23.00645}
+        - {x: -63.00002, y: 20.00645}
+        - {x: -63.00002, y: 16.00645}
+        - {x: -59.00002, y: 5.006451}
+        - {x: -40.00002, y: -16.99355}
+        - {x: -36.00002, y: -36.99355}
+        - {x: -29.00002, y: -54.99355}
+        - {x: -25.00002, y: -61.99355}
+        - {x: -18.00002, y: -61.99355}
+        - {x: 10.99998, y: -52.99355}
+        - {x: 26.99998, y: -58.99355}
+        - {x: 58.99998, y: -30.99355}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      novye-snaryady_1: 21300000
+      novye-snaryady_4: 21300008
+      novye-snaryady_5: 21300010
+      novye-snaryady_2: 21300004
+      novye-snaryady_0: 21300002
+      novye-snaryady_3: 21300006
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

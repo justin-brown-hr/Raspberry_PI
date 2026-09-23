@@ -1,0 +1,314 @@
+fileFormatVersion: 2
+guid: 619ac7a96a3044ef9ec4bde45c01012b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: bow_shield_3_0
+  - first:
+      213: 21300002
+    second: bow_shield_3_1
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 134, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bow_shield_3_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 131.9239
+        height: 432
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.96194, y: -216}
+        - {x: -65.96194, y: 216}
+        - {x: -41.96194, y: -216}
+      - - {x: -50.96194, y: 216}
+        - {x: -41.96194, y: -216}
+        - {x: -65.96194, y: 216}
+      - - {x: -35.96194, y: 214}
+        - {x: -41.96194, y: -216}
+        - {x: -50.96194, y: 216}
+      - - {x: 39.03806, y: -131}
+        - {x: -41.96194, y: -216}
+        - {x: -35.96194, y: 214}
+      - - {x: 43.03806, y: 126}
+        - {x: 39.03806, y: -131}
+        - {x: -35.96194, y: 214}
+      - - {x: 66.03806, y: -81}
+        - {x: 39.03806, y: -131}
+        - {x: 43.03806, y: 126}
+      - - {x: 66.03806, y: 77}
+        - {x: 66.03806, y: -81}
+        - {x: 43.03806, y: 126}
+      physicsShape:
+      - - {x: 9.038063, y: -158}
+        - {x: 24.03806, y: -138}
+        - {x: 33.03806, y: -124}
+        - {x: 43.03806, y: -104}
+        - {x: 53.03806, y: -83}
+        - {x: 61.03806, y: -55}
+        - {x: 62.03806, y: -44}
+        - {x: 65.03806, y: -23}
+        - {x: 65.03806, y: 24}
+        - {x: 62.03806, y: 45}
+        - {x: 56.03806, y: 70}
+        - {x: 50.03806, y: 88}
+        - {x: 46.03806, y: 97}
+        - {x: 41.03806, y: 108}
+        - {x: 28.03806, y: 132}
+        - {x: 22.03806, y: 141}
+        - {x: 2.038063, y: 166}
+        - {x: -21.96194, y: 189}
+        - {x: -38.96194, y: 202}
+        - {x: -57.96193, y: 214}
+        - {x: -63.96194, y: 216}
+        - {x: -65.96194, y: 216}
+        - {x: -65.96194, y: 189}
+        - {x: -64.96194, y: 189}
+        - {x: -59.96193, y: 190}
+        - {x: -47.96194, y: 174}
+        - {x: -34.96194, y: 167}
+        - {x: -22.96194, y: 159}
+        - {x: -6.961936, y: 144}
+        - {x: 7.038063, y: 127}
+        - {x: 12.03806, y: 119}
+        - {x: 18.03806, y: 110}
+        - {x: 29.03806, y: 87}
+        - {x: 41.03806, y: 49}
+        - {x: 45.03806, y: 24}
+        - {x: 46.03806, y: 11}
+        - {x: 46.03806, y: -11}
+        - {x: 44.03806, y: -32}
+        - {x: 40.03806, y: -53}
+        - {x: 33.03806, y: -79}
+        - {x: 29.03806, y: -87}
+        - {x: 18.03806, y: -110}
+        - {x: 14.03806, y: -115}
+        - {x: 0.03806305, y: -135}
+        - {x: -12.96194, y: -150}
+        - {x: -26.96194, y: -161}
+        - {x: -45.96194, y: -173}
+        - {x: -47.96194, y: -176}
+        - {x: -58.96193, y: -189}
+        - {x: -65.96194, y: -189}
+        - {x: -65.96194, y: -216}
+        - {x: -63.96194, y: -216}
+        - {x: -57.96193, y: -214}
+        - {x: -38.96194, y: -202}
+        - {x: -26.96194, y: -193}
+        - {x: -12.96194, y: -181}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shield_3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 132.9239
+        height: 432
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 134, w: 0}
+      outline:
+      - - {x: -66.46194, y: -216}
+        - {x: -66.46194, y: 216}
+        - {x: -39.46194, y: -216}
+      - - {x: -53.46194, y: 216}
+        - {x: -39.46194, y: -216}
+        - {x: -66.46194, y: 216}
+      - - {x: 7.538063, y: 169}
+        - {x: -39.46194, y: -216}
+        - {x: -53.46194, y: 216}
+      - - {x: 54.53806, y: -133}
+        - {x: -39.46194, y: -216}
+        - {x: 7.538063, y: 169}
+      - - {x: 57.53806, y: 96}
+        - {x: 54.53806, y: -133}
+        - {x: 7.538063, y: 169}
+      - - {x: 66.53806, y: -79}
+        - {x: 54.53806, y: -133}
+        - {x: 57.53806, y: 96}
+      - - {x: 66.53806, y: 47}
+        - {x: 66.53806, y: -79}
+        - {x: 57.53806, y: 96}
+      physicsShape:
+      - - {x: 1.538063, y: -167}
+        - {x: 16.53806, y: -149}
+        - {x: 24.53806, y: -137}
+        - {x: 33.53806, y: -124}
+        - {x: 43.53806, y: -104}
+        - {x: 52.53806, y: -82}
+        - {x: 55.53806, y: -72.99999}
+        - {x: 60.53806, y: -54}
+        - {x: 64.53806, y: -31}
+        - {x: 65.53806, y: -22}
+        - {x: 65.53806, y: 21}
+        - {x: 64.53806, y: 31}
+        - {x: 62.53806, y: 44}
+        - {x: 59.53806, y: 58}
+        - {x: 57.53806, y: 70}
+        - {x: 47.53806, y: 97.99999}
+        - {x: 41.53806, y: 108}
+        - {x: 28.53806, y: 132}
+        - {x: 22.53806, y: 141}
+        - {x: 9.538063, y: 157}
+        - {x: 2.538063, y: 166}
+        - {x: -21.46194, y: 189}
+        - {x: -39.46193, y: 202}
+        - {x: -52.46193, y: 211}
+        - {x: -61.46194, y: 216}
+        - {x: -66.46193, y: 216}
+        - {x: -66.46193, y: 187}
+        - {x: -60.46194, y: 188}
+        - {x: -47.46194, y: 174}
+        - {x: -34.46194, y: 167}
+        - {x: -6.461937, y: 144}
+        - {x: 18.53806, y: 110}
+        - {x: 29.53806, y: 87}
+        - {x: 41.53806, y: 49}
+        - {x: 45.53806, y: 24}
+        - {x: 46.53806, y: 11}
+        - {x: 46.53806, y: -11}
+        - {x: 44.53806, y: -32}
+        - {x: 40.53806, y: -53}
+        - {x: 33.53806, y: -79}
+        - {x: 29.53806, y: -87}
+        - {x: 18.53806, y: -110}
+        - {x: 14.53806, y: -115}
+        - {x: 0.538063, y: -135}
+        - {x: -12.46194, y: -150}
+        - {x: -26.46194, y: -161}
+        - {x: -45.46193, y: -173}
+        - {x: -47.46194, y: -176}
+        - {x: -58.46193, y: -189}
+        - {x: -64.46194, y: -189}
+        - {x: -66.46193, y: -190}
+        - {x: -66.46193, y: -216}
+        - {x: -62.46194, y: -216}
+        - {x: -52.46193, y: -211}
+        - {x: -38.46194, y: -202}
+        - {x: -20.46194, y: -188}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bow_shield_3_1: 21300002
+      bow_shield_3_0: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
