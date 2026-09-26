@@ -17,7 +17,11 @@ namespace Cabinet
 		private static readonly string[] HorizontalAxes = { "Horizontal", "Debug Horizontal" };
 		private static readonly string[] VerticalAxes = { "Vertical", "Debug Vertical" };
 
-		private static Vector2 _crosshair = new Vector2(0.5f, 0.45f);
+		// Client: the crosshair must START OUTSIDE the stack, so the player has to aim.
+		// Low and to the left, clear of the table.
+		public static readonly Vector2 StartPosition = new Vector2(0.14f, 0.28f);
+
+		private static Vector2 _crosshair = StartPosition;
 		private static float _heldTime;
 		private static Vector3 _lastMousePosition;
 		private static int _updatedFrame = -1;
@@ -31,11 +35,17 @@ namespace Cabinet
 		// Test driver hook (-cabinetTest): overrides the stick and presses fire
 		private static Vector2? _testTarget;
 		private static bool _testFire;
+		private static bool _testStart;
 
 		public static void SetTestInput(Vector2? target, bool fire)
 		{
 			_testTarget = target;
 			_testFire |= fire;
+		}
+
+		public static void SetTestStart()
+		{
+			_testStart = true;
 		}
 
 		// Swallow this frame's press so the button that starts a game doesn't also fire
@@ -44,9 +54,27 @@ namespace Cabinet
 			FireDown = false;
 		}
 
+		// The START button is a different physical button from FIRE. The wristband
+		// Raspberry closes a relay across START for 1 second, so a credit arrives here
+		// as an ordinary button press.
+		public static bool StartDown { get; private set; }
+
+		// Last button seen, for the on-screen button test (-cabinetButtons)
+		public static string LastButton { get; private set; } = "-";
+
+		private static readonly KeyCode[] FireKeys =
+		{
+			KeyCode.JoystickButton0, KeyCode.Space, KeyCode.LeftControl, KeyCode.Z
+		};
+
+		private static readonly KeyCode[] StartKeys =
+		{
+			KeyCode.JoystickButton1, KeyCode.Return, KeyCode.KeypadEnter, KeyCode.Alpha1
+		};
+
 		public static void ResetCrosshair()
 		{
-			_crosshair = new Vector2(0.5f, 0.45f);
+			_crosshair = StartPosition;
 			_heldTime = 0f;
 		}
 
@@ -92,9 +120,12 @@ namespace Cabinet
 			_crosshair.x = Mathf.Clamp(_crosshair.x, Bounds.xMin, Bounds.xMax);
 			_crosshair.y = Mathf.Clamp(_crosshair.y, Bounds.yMin, Bounds.yMax);
 
-			FireDown = ReadFireDown() || _testFire;
+			FireDown = ReadKeys(FireKeys) || Input.GetMouseButtonDown(0) || _testFire;
+			StartDown = ReadKeys(StartKeys) || _testStart;
+			_testStart = false;
 			_testFire = false;
-			AnyInput = FireDown || stick != Vector2.zero || mouseMoved || testInput;
+			RecordLastButton();
+			AnyInput = FireDown || StartDown || stick != Vector2.zero || mouseMoved || testInput;
 		}
 
 		private static float ReadAxis(string[] axes)
@@ -111,20 +142,42 @@ namespace Cabinet
 			return value;
 		}
 
-		private static bool ReadFireDown()
+		private static bool ReadKeys(KeyCode[] keys)
+		{
+			for (int i = 0; i < keys.Length; i++)
+			{
+				if (Input.GetKeyDown(keys[i]))
+				{
+					return true;
+				}
+			}
+			return false;
+		}
+
+		// Names whatever was pressed, so someone at the cabinet can press each button
+		// and we can see which code it sends.
+		private static void RecordLastButton()
 		{
 			for (KeyCode key = KeyCode.JoystickButton0; key <= KeyCode.JoystickButton19; key++)
 			{
 				if (Input.GetKeyDown(key))
 				{
-					return true;
+					LastButton = key.ToString();
+					return;
 				}
 			}
-			return Input.GetKeyDown(KeyCode.Space)
-				|| Input.GetKeyDown(KeyCode.Return)
-				|| Input.GetKeyDown(KeyCode.KeypadEnter)
-				|| Input.GetKeyDown(KeyCode.LeftControl)
-				|| Input.GetMouseButtonDown(0);
+			if (Input.anyKeyDown)
+			{
+				foreach (KeyCode key in System.Enum.GetValues(typeof(KeyCode)))
+				{
+					if (Input.GetKeyDown(key))
+					{
+						LastButton = key.ToString();
+						return;
+					}
+				}
+			}
 		}
+
 	}
 }

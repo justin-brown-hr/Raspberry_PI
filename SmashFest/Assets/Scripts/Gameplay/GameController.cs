@@ -939,7 +939,9 @@ namespace Gameplay
 		{
 			_levelIndex = levelIndex;
 			_levelData = LevelLoader.GetLevel(levelIndex);
-			_remainingMoves = _levelData != null ? _levelData.moveCount : 0;
+			_remainingMoves = Cabinet.CabinetDirector.Enabled
+				? Cabinet.CabinetDirector.BallsPerPhase
+				: (_levelData != null ? _levelData.moveCount : 0);
 			_currentStageIndex = 0;
 			_collectionName = LevelCollectionHelper.GetCollectionToUse();
 			_collectionVersion = LevelCollectionHelper.GetMetaDataForCollection(_collectionName)?.version ?? 0;
@@ -1181,6 +1183,9 @@ namespace Gameplay
 			{
 				return;
 			}
+			// Cabinet: every object knocked off scores (stage cleanup destroys directly,
+			// so this only fires for real hits)
+			Cabinet.CabinetDirector.OnObjectDestroyed(objectToDestroy);
 			_currentStage?.LiveObjects?.Remove(objectToDestroy);
 			Destroy(objectToDestroy.gameObject);
 		}
@@ -1229,6 +1234,11 @@ namespace Gameplay
 				backgroundPosition.z = maxZ;
 				backgroundPrefab.transform.position = backgroundPosition;
 			}
+		}
+
+		public int GetRemainingMoves()
+		{
+			return _remainingMoves;
 		}
 
 		// Cabinet: hide the in-game HUD while the attract or result screens are up

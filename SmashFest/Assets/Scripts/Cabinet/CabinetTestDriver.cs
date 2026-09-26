@@ -40,8 +40,8 @@ namespace Cabinet
 			StartCoroutine(ScreenshotRoutine());
 			Debug.Log("CABINETTEST: started, attract mode for 7s");
 			yield return new WaitForSecondsRealtime(7f);
-			CabinetInput.SetTestInput(null, true);
-			Debug.Log("CABINETTEST: pressed start");
+			CabinetInput.SetTestStart();
+			Debug.Log("CABINETTEST: pressed START button");
 
 			float end = Time.realtimeSinceStartup + RunDuration;
 			while (Time.realtimeSinceStartup < end)

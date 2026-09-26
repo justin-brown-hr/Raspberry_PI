@@ -77,6 +77,8 @@ public static class PiBuild
 		PlayerSettings.Android.minSdkVersion = AndroidSdkVersions.AndroidApiLevel24;
 		PlayerSettings.Android.targetSdkVersion = AndroidSdkVersions.AndroidApiLevel33;
 		PlayerSettings.SetManagedStrippingLevel(BuildTargetGroup.Android, ManagedStrippingLevel.Disabled);
+		// The game sends the claw award to the host over UDP, so the permission must be present
+		PlayerSettings.Android.forceInternetPermission = true;
 
 		// Waydroid presents GLES3; leaving Vulkan first risks a black screen there
 		PlayerSettings.SetUseDefaultGraphicsAPIs(BuildTarget.Android, false);
